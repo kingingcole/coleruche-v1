@@ -18,7 +18,7 @@ class BlogPostTemplate extends React.Component {
 
     //for disqus
     let disqusConfig = {
-      url: `${url+window.location.pathname}`,
+      url: `${url+this.props.location.pathname}`,
       identifier: post.id,
       title: siteTitle,
     }
