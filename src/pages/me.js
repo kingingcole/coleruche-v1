@@ -26,10 +26,19 @@ const Me = () => {
         description={`About Emeruche Cole`}
       />
       <div className="row">
-        <div className="col-4">
-          <Img sizes={data.avatar.childImageSharp.sizes} style={{maxHeight: '300px'}}/>
+        <div className="col-sm-12 col-md-5">
+          <Img sizes={data.avatar.childImageSharp.sizes} style={{maxHeight: '400px'}}/>
         </div>
-        <div className="col-8">About me</div>
+        <div className="col-sm-12 col-md-7">
+          <h1>Hey there,</h1>
+          <p>the name's <b>Emeruche "Cole" Ikenna</b>.</p>
+          <p>A front-end web and mobile developer from Nigeria. <br/> During the few years I have been coding, I have picked up relevant languages, skills and frameworks - HTML, CSS, React JS, React Native, vanilla JavaScript, Python (Django and DRF) and some of the cool collaborative tools like git and Slack.
+          I use Heroku and Netlify as choice of deployments.</p>
+          <p>I try to build cool web apps to keep my skillsets and <a target='_blank' href="https://github.com/kingingcole">github</a> as "updated" as possible.</p>
+          <p>When I'm  not coding, I am either reading medical books, <a target='_blank' href="https://twitter.com/cole_ruche">tweeting</a>, or playing video games. I do not joke with naps and breakfast.</p>
+          <p>If you wish to reach  through a pretty form, I am sorry to disappoint you as there is none. <a target='_top' href="mailto:emeruchecole9@gmail.com">Just shoot me a mail</a> - it makes both our lives easier!</p>
+          <p>Cheers!</p>
+        </div>
       </div>
     </Layout>
   )

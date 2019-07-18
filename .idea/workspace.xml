@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e136884-04da-434f-a9f7-2437ce78176c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/me.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/me.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/works.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/works.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/me.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+            <state relative-caret-position="435">
+              <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -241,13 +239,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29556000" />
+    <option name="totallyTimeSpent" value="31475000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22991072" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22991072" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -435,8 +433,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/me.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        <state relative-caret-position="435">
+          <caret line="36" column="67" selection-start-line="36" selection-start-column="67" selection-end-line="36" selection-end-column="67" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
