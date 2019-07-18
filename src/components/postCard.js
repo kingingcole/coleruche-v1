@@ -8,7 +8,7 @@ class PostCard extends Component {
 		let {title, image, date, url} = this.props
 		console.log(image)
 		return (
-				<div className='p col-sm-12 col-md-6 px-1 mx-auto'>
+				<div className='p col-sm-12 col-md-6 px-1'>
 					<Link to={url}>
 						<BackgroundImage Tag="div"
                            className='postcard-cont my-1'
