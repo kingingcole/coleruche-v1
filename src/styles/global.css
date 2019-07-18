@@ -136,6 +136,10 @@ footer p{
 		display: none !important
 	}
 
+    .post-title__index{
+        font-size: 1.7em;
+    }
+
 	nav{
 		position: fixed;
 		top: 0;

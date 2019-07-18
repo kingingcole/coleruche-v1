@@ -9,6 +9,7 @@ import { rhythm, scale } from "../utils/typography"
 
 import { Disqus, CommentCount } from 'gatsby-plugin-disqus'  //for disqus
 
+
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
@@ -37,7 +38,7 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.title}
         </h1>
-        <CommentCount config={disqusConfig} placeholder={'...'} />
+
         <p
           style={{
             ...scale(-1 / 5),
@@ -46,6 +47,7 @@ class BlogPostTemplate extends React.Component {
           }}
         >
           {post.frontmatter.date}
+          <span style={{marginLeft: '10px', color:'gray'}}><CommentCount config={disqusConfig} placeholder={'...'} /></span>
         </p>
         <Img  sizes={post.frontmatter.featuredImage.childImageSharp.sizes} />
         <br/><br/>
