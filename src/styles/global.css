@@ -1,0 +1,153 @@
+::selection{
+	color: rgba(0,186,186,1);
+	background: rgba(0,186,186,0.25)
+}
+
+a{
+	color: #00baba !important;
+	text-decoration: none !important;
+	box-shadow: none !important;
+	font-weight: 500
+}
+a:hover{
+	text-decoration: none !important;
+	/*font-weight: 700;*/
+	color: #212529 !important;
+}
+
+nav{
+	background: rgba(0,186,186,0.1);
+	background: white;
+	padding: 21px 0;
+	max-width: 600px;
+	margin: auto;
+	border-bottom: 2px solid rgba(0,186,186,0.3);
+
+	/*border-bottom: 2px solid rgba(0,0,0,0.4);*/
+}
+
+nav ul {
+	margin: 0;
+}
+
+nav ul li {
+	list-style: none;
+	color: #00baba;
+	font-size: 1em;
+	font-family: "Graphik",helvetica!important;
+	font-weight: 100 !important;
+	/*padding: 0px !important;*/
+}
+nav ul li a.active{
+	color: #212529 !important;
+}
+
+nav ul li:hover{
+	font-weight: 700;
+	transition: 0.5s;
+	display: inline;
+}
+
+.bio-links{
+	margin-top: 5px
+}
+
+.bio-links a{
+	padding-right: 9px
+}
+
+.postcard-cont{
+	height: 400px;
+}
+
+
+.postcard {
+	background-color: rgba(4, 53, 53, 0.56);
+	/*background-color: rgba(8, 44, 45, 0.5);*/
+    width:100%; 
+    height:100%;
+}
+
+
+.post-title__index{
+	color: #fff;
+	/*opacity: 0.83;*/
+	margin: auto;
+	padding: 176px 10px;
+	padding-bottom: 0px;
+	text-align: center;
+	display: block;
+	font-size: 2.3em;
+}
+.post-date__index{
+	color: lightgray;
+	opacity: 0.98;
+	text-align: center;
+	transition: 0.2s;
+	font-size: 0.9em
+}
+
+.post-title__index:hover{
+	/*color: rgba(0,186,186,0.73);*/
+	color: white;
+	opacity: 0.83;
+	transition: 0.2s
+}
+
+blockquote{
+	border-color: #00baba;
+	border-width: 3.7px;
+}
+
+
+
+footer{
+	background: white;
+	padding: 20px 0;
+	border-top: 2px solid rgba(0,186,186,0.2);
+}
+
+footer div.row{
+	max-width: 200px;
+	margin: auto;
+}
+
+footer p{
+	font-size: 0.8em;
+	margin-bottom: 0px;
+	color: darkgray;
+}
+
+@media screen and (max-width: 500px){
+	.postcard-cont{
+		height: 300px
+	}
+	.post-title__index{
+		padding: 130px 10px;
+		padding-bottom: 0px
+	}
+	.post-date__index{
+		font-size: 0.8em
+	}
+}
+
+@media screen and (max-width: 443px){
+	.bio{
+		display: none !important
+	}
+
+	nav{
+		position: fixed;
+		top: 0;
+		width: 100%;
+		margin: auto;
+		z-index: 100;
+		padding: 16px 0
+	}
+
+	div.content{
+		margin-top: 50px
+	}
+
+}
+
