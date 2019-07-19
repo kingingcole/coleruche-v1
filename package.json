@@ -13,8 +13,10 @@
     "gatsby-background-image": "^0.8.0",
     "gatsby-image": "^2.2.6",
     "gatsby-plugin-catch-links": "^2.1.2",
+    "gatsby-plugin-disqus": "latest",
     "gatsby-plugin-feed": "^2.3.4",
     "gatsby-plugin-google-analytics": "^2.1.4",
+    "gatsby-plugin-mailchimp": "^5.1.2",
     "gatsby-plugin-manifest": "^2.2.3",
     "gatsby-plugin-nprogress": "^2.1.2",
     "gatsby-plugin-offline": "^2.2.3",
@@ -39,8 +41,7 @@
     "typeface-merriweather": "0.0.72",
     "typeface-montserrat": "0.0.54",
     "typography": "^0.16.19",
-    "typography-theme-wordpress-2016": "^0.16.19",
-    "gatsby-plugin-disqus": "latest"
+    "typography-theme-wordpress-2016": "^0.16.19"
   },
   "devDependencies": {
     "prettier": "^1.18.2"

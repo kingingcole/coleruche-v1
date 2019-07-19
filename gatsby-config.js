@@ -13,6 +13,12 @@ module.exports = {
   plugins: [
     `gatsby-plugin-catch-links`,
     {
+      resolve: "gatsby-plugin-mailchimp",
+      options: {
+        endpoint: "https://gmail.us3.list-manage.com/subscribe/post?u=7d7dcd8b82703a15f9dcb8977&amp;id=ba6223fb99", // add your MC list endpoint here; see instructions below
+      },
+    },
+    {
       resolve: `gatsby-plugin-nprogress`,
       options: {
         // Setting a color is optional.
@@ -114,8 +120,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-disqus`,
       options: {
-        shortname: `colesblog-netlify-com`
-      }
+        shortname: `colesblog-netlify-com`,
+      },
     },
   ],
 }
