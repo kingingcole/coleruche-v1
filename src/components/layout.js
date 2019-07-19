@@ -2,6 +2,7 @@
 import { Link } from "gatsby"
 import Navbar from "../components/navbar"
 import Footer from "../components/footer"
+import Subscribe from "../components/subscribe"
 
 import { rhythm, scale } from "../utils/typography"
 
@@ -22,6 +23,7 @@ class Layout extends React.Component {
             }}
           >
             <main>{children}</main>
+            <Subscribe/>
           </div>
         </div>
         <footer>
