@@ -106,7 +106,8 @@ blockquote{
 
 .subscribe form input{
 	width: 100%;
-	margin: auto
+	margin: auto;
+	height: 20px
 }
 
 footer{

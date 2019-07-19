@@ -49,7 +49,7 @@ class BlogPostTemplate extends React.Component {
           {post.frontmatter.date}
           <span style={{marginLeft: '10px', color:'gray'}}><CommentCount config={disqusConfig} placeholder={'...'} /></span>
         </p>
-        <Img  sizes={post.frontmatter.featuredImage.childImageSharp.sizes} />
+        <Img  sizes={post.frontmatter.featuredImage.childImageSharp.sizes} style={{padding: '0'}}/>
         <br/><br/>
         <div dangerouslySetInnerHTML={{ __html: post.html }} style={{maxWidth: '900px', margin: 'auto', textAlign: 'justify', lineHeight: '1.8em'}}/>
         <Disqus config={disqusConfig} />
