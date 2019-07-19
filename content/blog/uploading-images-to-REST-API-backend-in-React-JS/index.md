@@ -2,7 +2,7 @@
 title: Uploading images to REST API backend in React JS
 date: "2019-02-28T22:40:32.169Z"
 featuredImage: "./featured-image.jpg"
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+description: We will look at how to send images to a back end with React forms. 
 ---
 
 So I would be writing about a very challenging task I faced when building a test project for a job I applied to: I was asked to build a React app that lets users add products with descriptions, categories, and an image, while utilising an API. So the issue was that I have built a few learning apps that gets data from a React form and send it to a backend through an API POST call to a REST API - but never an image!
