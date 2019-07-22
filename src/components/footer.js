@@ -21,7 +21,7 @@ const Footer = () => {
   `)
 
 	const { social } = data.site.siteMetadata
-	console.log(social)
+	// console.log(social)
 	return (
 			<div>
 				<div className='row text-center'>

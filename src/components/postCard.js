@@ -6,7 +6,7 @@ import BackgroundImage from 'gatsby-background-image'
 class PostCard extends Component {
 	render() {
 		let {title, image, date, url} = this.props
-		console.log(image)
+		// console.log(image)
 		return (
 				<div className='p col-sm-12 col-md-6 px-1'>
 					<Link to={url}>
