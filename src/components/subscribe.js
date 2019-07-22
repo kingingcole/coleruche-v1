@@ -16,7 +16,7 @@ class Subscribe extends Component {
     let {email, FNAME} = this.state;
     addToMailchimp(email, {FNAME} /*second parameter holds more info like FNAME. LNAME etc. optional*/)
       .then(data => {
-        data.result === 'success' ? (this.setState({statusMsg: 'Your subscription was successful!', statusMsgColor: 'green'})) : (this.setState({statusMsg: 'This email has already been subscribed.', statusMsgColor: 'red'}))
+        data.result === 'success' ? (this.setState({statusMsg: 'Your subscription was successful!', statusMsgColor: 'green', FNAME: '', email: ''})) : (this.setState({statusMsg: 'This email has already been subscribed.', statusMsgColor: 'red'}))
       })
       .catch(err => {
         this.setState({statusMsg: 'An error occured. Please re-try', statusMsgColor: 'red'})
@@ -28,8 +28,8 @@ class Subscribe extends Component {
     let {statusMsg, FNAME} = this.state;
     // console.log(statusMsg, FNAME)
     return (
-      <div className="container subscribe text-center mt-5">
-        <h5>Subscribe to recive updates on new posts</h5>
+      <div className="subscribe text-center mt-5">
+        <h6>Subscribe to receive updates on new posts</h6>
         <form onSubmit={this.handleSubmit}>
           <div className="row text-center mx-auto">
             <div className="col-sm-12 col-lg-5 mx-auto my-1 ">
