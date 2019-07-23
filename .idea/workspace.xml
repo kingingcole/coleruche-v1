@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e136884-04da-434f-a9f7-2437ce78176c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/blog-post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/blog-post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/fourth-post/featured-image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/fourth-post/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/hello-world/featured-image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/hello-world/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/hello-world/salty_egg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/hi-folks/featured-image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/hi-folks/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/my-second-post/featured-image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/my-second-post/featured-image1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/my-second-post/index.md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,16 +21,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/styles/global.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="723">
-              <caret line="105" column="24" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
+            <state relative-caret-position="363">
+              <caret line="127" selection-start-line="127" selection-end-line="127" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/templates/blog-post.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="456">
@@ -91,10 +96,10 @@
         <option value="$PROJECT_DIR$/src/components/subscribe.js" />
         <option value="$PROJECT_DIR$/src/components/footer.js" />
         <option value="$PROJECT_DIR$/content/blog/JavaScript Console API and Methods/index.md" />
-        <option value="$PROJECT_DIR$/src/styles/global.css" />
         <option value="$PROJECT_DIR$/gatsby-config.js" />
         <option value="$PROJECT_DIR$/content/blog/JavaScript-Console-API-and-Methods/index.md" />
         <option value="$PROJECT_DIR$/src/templates/blog-post.js" />
+        <option value="$PROJECT_DIR$/src/styles/global.css" />
       </list>
     </option>
   </component>
@@ -133,26 +138,7 @@
             <path>
               <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaScript-Console-API-and-Methods" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
@@ -216,12 +202,12 @@
       <workItem from="1563576537817" duration="1748000" />
       <workItem from="1563579238773" duration="5256000" />
       <workItem from="1563900983492" duration="5063000" />
-      <workItem from="1563919585841" duration="3188000" />
+      <workItem from="1563919585841" duration="3449000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51055000" />
+    <option name="totallyTimeSpent" value="51316000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -438,13 +424,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="723">
-          <caret line="105" column="24" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/blog-post.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -452,6 +431,13 @@
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
         </state>
       </provider>
     </entry>
