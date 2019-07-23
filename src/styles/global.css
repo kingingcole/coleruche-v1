@@ -109,6 +109,7 @@ blockquote {
 
 .subscribe form {
     margin: auto;
+    max-width: 700px;
 }
 
 .subscribe form input {
@@ -121,6 +122,10 @@ blockquote {
     transition: all 0.3s;
 }
 
+.subscribe form input::placeholder{
+    color: rgb(0, 108, 108);
+}
+
 .subscribe form input:focus {
     box-shadow: none !important;
     outline: 1px solid rgba(0, 186, 186, 1);
@@ -129,7 +134,7 @@ blockquote {
 .subscribe form button {
     width: 100%;
     padding: 10px;
-    background: #00c5c5;
+    background: #00b8b8;
     border: none;
     cursor: pointer;
     color: white;
@@ -139,7 +144,7 @@ blockquote {
 }
 
 .subscribe form button:hover {
-    background: #00baba;
+    background: rgb(0, 132, 132);
 }
 
 .subscribe form button:focus {
@@ -202,6 +207,11 @@ footer p {
 
     div.content {
         margin-top: 50px
+    }
+
+    .subscribe form div.sub-input-cont,
+    .subscribe form div.sub-button-cont{
+        padding: 0;
     }
 
 }

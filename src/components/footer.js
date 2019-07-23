@@ -31,7 +31,7 @@ const Footer = () => {
 			          	</a>
 					</span>
 					<span className='col-4'>
-						<a href={`https://twitter.com/${social.github}`}>
+						<a href={`https://github.com/${social.github}`}>
 			            	<FeatherIcon icon="github" size='20'/>
 			          	</a>
 					</span>

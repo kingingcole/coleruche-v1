@@ -7,43 +7,45 @@ class Subscribe extends Component {
     email: "",
     FNAME: "",
     statusMsg: "",
-    statusMsgColor: 'green'
+    statusMsgColor: 'green',
+    subscribing: false,
   }
 
   handleSubmit = (e) => {
     e.preventDefault();
-    this.setState({statusMsg: ''})
+    this.setState({statusMsg: '', subscribing: true})
     let {email, FNAME} = this.state;
     addToMailchimp(email, {FNAME} /*second parameter holds more info like FNAME. LNAME etc. optional*/)
       .then(data => {
-        data.result === 'success' ? (this.setState({statusMsg: 'Your subscription was successful!', statusMsgColor: 'green', FNAME: '', email: ''})) : (this.setState({statusMsg: 'This email has already been subscribed.', statusMsgColor: 'red'}))
+        data.result === 'success' ? (this.setState({statusMsg: 'Your subscription was successful!', statusMsgColor: 'green', FNAME: '', email: '', subscribing: false})) : (this.setState({statusMsg: 'This email has already been subscribed.', statusMsgColor: 'red', subscribing: false}))
       })
       .catch(err => {
-        this.setState({statusMsg: 'An error occured. Please re-try', statusMsgColor: 'red'})
+        this.setState({statusMsg: 'An error occured. Please re-try', statusMsgColor: 'red', subscribing: false})
       })
   };
 
 
   render() {
-    let {statusMsg, FNAME} = this.state;
-    // console.log(statusMsg, FNAME)
+    let {statusMsg, subscribing} = this.state;
+    let btnCTA = subscribing ? 'Subscribing' : 'Subscribe';
     return (
       <div className="subscribe text-center mt-5">
         <h6>Subscribe to receive updates on new posts</h6>
+        <small>Both fields are required.</small>
         <form onSubmit={this.handleSubmit}>
           <div className="row text-center mx-auto">
-            <div className="col-sm-12 col-lg-5 mx-auto my-1 ">
-              <input placeholder='Email Address (required)' type="email" autoComplete='true' required value={this.state.email}
+            <div className="col-sm-12 mx-auto my-1 sub-input-cont">
+              <input placeholder='Email' type="email" autoComplete='true' required value={this.state.email}
                      onChange={(e) => this.setState({ email: e.target.value })}/>
             </div>
 
-            <div className="col-sm-12 col-lg-4 mx-auto my-1 ">
-              <input placeholder='First Name (required)' type="text" autoComplete='true' required value={this.state.FNAME}
+            <div className="col-sm-12 mx-auto my-1 sub-input-cont">
+              <input placeholder='First name' type="text" autoComplete='true' required value={this.state.FNAME}
                      onChange={(e) => this.setState({ FNAME: e.target.value })}/>
             </div>
 
-            <div className="col-sm-12 col-lg-3 mx-auto my-1">
-              <button type="submit">Subscribe</button>
+            <div className="col-sm-12 mx-auto my-1 sub-button-cont">
+              <button type="submit">{btnCTA}</button>
             </div>
             {statusMsg && 
                 <div className='col-12'>
