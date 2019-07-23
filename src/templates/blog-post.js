@@ -13,6 +13,7 @@ import { Disqus, CommentCount } from 'gatsby-plugin-disqus'  //for disqus
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
+    const {text} = this.props.data.markdownRemark.fields.readingTime // from  gatsby-remark-reading-time.
     const siteTitle = this.props.data.site.siteMetadata.title
     const url = this.props.data.site.siteMetadata.siteUrl
     const { previous, next } = this.props.pageContext
@@ -47,11 +48,14 @@ class BlogPostTemplate extends React.Component {
           }}
         >
           {post.frontmatter.date}
-          <span style={{marginLeft: '10px', color:'gray'}}><CommentCount config={disqusConfig} placeholder={'...'} /></span>
-        </p>
+          <span className="d-block">
+            {text}
+            <span style={{marginLeft: '10px', color:'gray'}}><CommentCount config={disqusConfig} placeholder={'...'} /></span>
+          </span>
+           </p>
         <Img  sizes={post.frontmatter.featuredImage.childImageSharp.sizes}/>
         <br/><br/>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} style={{maxWidth: '900px', margin: 'auto', textAlign: 'justify', lineHeight: '1.8em'}}/>
+        <div dangerouslySetInnerHTML={{ __html: post.html }} style={{maxWidth: '700px', margin: 'auto', textAlign: 'left', lineHeight: '1.8em'}}/>
         <Disqus config={disqusConfig} />
 
 
@@ -110,6 +114,12 @@ export const pageQuery = graphql`
             ...GatsbyImageSharpSizes
           }
          }
+        }
+      }
+      fields{
+        slug
+        readingTime{
+          text
         }
       }
     }
