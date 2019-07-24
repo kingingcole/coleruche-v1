@@ -22,8 +22,9 @@ class BlogIndex extends React.Component {
           {posts.map(({ node }) => {
           console.log(node)
           const title = node.frontmatter.title || node.fields.slug
+            let url = `post${node.fields.slug}`
           return (
-            <PostCard title={title} url={node.fields.slug} image={node.frontmatter.featuredImage.childImageSharp.fluid} date={node.frontmatter.date}/>
+            <PostCard title={title} url={url} image={node.frontmatter.featuredImage.childImageSharp.fluid} date={node.frontmatter.date}/>
             )
           })}
         </div>
