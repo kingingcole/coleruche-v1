@@ -2,7 +2,9 @@
 title: JavaScript Console API and Methods
 date: "2019-05-26T22:40:32.169Z"
 featuredImage: "./featured-image.jpg"
+type: post
 description: A dive into the methods on the JavaScript inbuilt console object.
+published: true
 ---
 
 As a JavaScript engineer, I have used the `console.log()` method more times than [the number of people killed in Game Of Thrones up to the 7th season](https://winteriscoming.net/2017/10/26/30-minutes-or-less-watch-all-174373-deaths-in-game-of-thrones-seasons-1-7/) — well, maybe not that much.<br/>
@@ -59,8 +61,8 @@ The simplest case of using the `assert()` method, is when we want to display som
 ```javascript
 var x = 21;
 console.assert(x % 2 === 0, 'oops! x is not divisible by 2');
-// or
-// var x = 21;
+// or alternatively
+
 var errMsg = 'oops! x is not divisible by 2';
 console.assert(x % 2 === 0, errMsg);
 ```

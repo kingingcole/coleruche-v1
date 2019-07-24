@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import Bio from "../components/bio"
-import Img from 'gatsby-image'
+import Img from "gatsby-image"
 import Layout from "../components/layout"
 import PostCard from "../components/postCard"
 import SEO from "../components/seo"
@@ -17,14 +17,15 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="Blog"/>
-        <Bio />
-          <div className='row'>
+        <Bio/>
+        <div className='row'>
           {posts.map(({ node }) => {
-          console.log(node)
-          const title = node.frontmatter.title || node.fields.slug
+            console.log(node)
+            const title = node.frontmatter.title || node.fields.slug
             let url = `post${node.fields.slug}`
-          return (
-            <PostCard title={title} url={url} image={node.frontmatter.featuredImage.childImageSharp.fluid} date={node.frontmatter.date}/>
+            return (
+              <PostCard title={title} url={url} image={node.frontmatter.featuredImage.childImageSharp.fluid}
+                        date={node.frontmatter.date}/>
             )
           })}
         </div>
@@ -42,7 +43,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(filter: {frontmatter: {type: {eq: "post"}, published: {eq: true}}}, sort: {fields: frontmatter___date, order: DESC}) {
       edges {
         node {
           excerpt
