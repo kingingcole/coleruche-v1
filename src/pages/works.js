@@ -25,7 +25,7 @@ class Works extends React.Component {
         <div className='row text-center mb-5'>
           <div className='col-12'><h4>Here are a few of my projects.</h4></div>
         </div>
-        <div className="row m-auto p-0" style={{ maxWidth: "800px", padding: "10px" }}>
+        <div className="row m-auto p-0" style={{ maxWidth: "900px", padding: "10px" }}>
           {works.map(({ node }) => {
             // console.log(node)
             const title = node.frontmatter.title || node.fields.slug
