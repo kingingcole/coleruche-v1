@@ -8,21 +8,19 @@ exports.createPages = ({ graphql, actions }) => {
   return graphql(
     `
       {
-        allMarkdownRemark(
-          sort: { fields: [frontmatter___date], order: DESC }
-          limit: 1000
-        ) {
-          edges {
-            node {
-              fields {
-                slug
-              }
-              frontmatter {
-                title
-              }
-            }
+         allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}, filter: {frontmatter: {type: {eq: "post"}}}, limit: 1000) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+            type
           }
         }
+      }
+    }
       }
     `,
   ).then(result => {
@@ -39,6 +37,8 @@ exports.createPages = ({ graphql, actions }) => {
       let {slug} = post.node.fields;
 
       let path = `post${slug}`;
+
+      if (post.node.frontmatter.type === 'work') return null
 
       createPage({
         path,
