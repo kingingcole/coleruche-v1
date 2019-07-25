@@ -30,8 +30,7 @@ const Me = () => {
           <Img sizes={data.avatar.childImageSharp.sizes} style={{maxHeight: '400px'}}/>
         </div>
         <div className="col-sm-12 col-md-7">
-          <h1>Hey there,</h1>
-          <p>the name's <b>Emeruche "Cole" Ikenna</b>.</p>
+          <p>Hey there, the name's <b>Emeruche "Cole" Ikenna</b>.</p>
           <p>A front-end web and mobile developer from Nigeria. <br/> During the few years I have been coding, I have picked up relevant languages, skills and frameworks - HTML, CSS, React JS, React Native, vanilla JavaScript, Python (Django and DRF) and some of the cool collaborative tools like git and Slack.
           I use Heroku and Netlify as choice of deployments.</p>
           <p>I try to build cool web apps to keep my skillsets and <a target='_blank' href="https://github.com/kingingcole">github</a> as "updated" as possible. I consider the internet the greatest learning environment, and solving challenges the best teacher.</p>
