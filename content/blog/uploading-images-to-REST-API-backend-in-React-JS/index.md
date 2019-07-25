@@ -15,7 +15,7 @@ So after lots of trials and heartbreaks, I got it done, and I am here to teach y
 >
 >This tutorial assumes you have basic knowledge of Django and React JS. This is not a tutorial for them.
 >
->The processes here uses django and django rest framework for its backend configurations. But the React logic works for any backend framework - just do a little bit more googling regarding your framework. \
+>The processes here uses django and django rest framework for its backend configurations. But the React logic works for any backend framework - just do a little bit more googling regarding your framework. 
    
  <br />
 

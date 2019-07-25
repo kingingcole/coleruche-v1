@@ -112,11 +112,14 @@ blockquote {
     -webkit-box-shadow: 0 2px 20px 0 rgba(0,0,0,0.075);
     -moz-box-shadow: 0 2px 20px 0 rgba(0,0,0,0.075);
     box-shadow: 0 2px 20px 0 rgba(0,0,0,0.075);
-    margin: 20px 0;
+    margin: 10px 0;
     padding: 30px 20px;
     border-radius: 10px;
     transition: background-color 0.4s;
     cursor: pointer;
+    min-height: 300px !important;
+    padding: auto;
+    padding-bottom: 0px 
 }
 
 .work-card:hover{

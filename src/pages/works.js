@@ -13,21 +13,27 @@ class Works extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
+    const {github} = data.site.siteMetadata.social
     const works = data.allMarkdownRemark.edges
+    const githubProfile = `https://github.com/${github}`
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="Works"/>
         <Bio/>
+        <div className='row text-center mb-5'>
+          <div className='col-12'><h4>Here are a few of my projects.</h4></div>
+        </div>
         <div className="row m-auto p-0" style={{ maxWidth: "800px", padding: "10px" }}>
           {works.map(({ node }) => {
             // console.log(node)
             const title = node.frontmatter.title || node.fields.slug
-            const description = node.frontmatter.description
+            const {description, tech, link, repo} = node.frontmatter
             return (
-              <WorkCard title={title} description={description} />
+              <WorkCard repo={repo} github={github} title={title} description={description} tech={tech} link={link}/>
             )
           })}
+          <p className='mt-4'>Other projects can be found at my <a href={githubProfile}>github graveyard</a>.</p>
         </div>
       </Layout>
     )
@@ -38,7 +44,7 @@ export default Works
 
 export const worksQuery = graphql`
   query{
-  allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}, filter: {frontmatter: {published: {eq: true}, type: {eq: "work"}}}) {
+  allMarkdownRemark(sort: {fields: frontmatter___position, order: ASC}, filter: {frontmatter: {published: {eq: true}, type: {eq: "work"}}}) {
     edges {
       node {
         id
@@ -49,6 +55,9 @@ export const worksQuery = graphql`
           description
           tech
           title
+          tech
+          link
+          repo
         }
       }
     }
