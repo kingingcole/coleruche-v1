@@ -118,8 +118,6 @@ blockquote {
     transition: background-color 0.4s;
     cursor: pointer;
     min-height: 300px !important;
-    padding: auto;
-    padding-bottom: 0px 
 }
 
 .work-card:hover{
