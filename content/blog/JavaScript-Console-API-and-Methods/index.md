@@ -5,6 +5,7 @@ featuredImage: "./featured-image.jpg"
 type: post
 description: A dive into the methods on the JavaScript inbuilt console object.
 published: true
+altText: turned on wireless dualshock game controller
 ---
 
 As a JavaScript engineer, I have used the `console.log()` method more times than [the number of people killed in Game Of Thrones up to the 7th season](https://winteriscoming.net/2017/10/26/30-minutes-or-less-watch-all-174373-deaths-in-game-of-thrones-seasons-1-7/) — well, maybe not that much.<br/>

@@ -12,6 +12,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-catch-links`,
+    `gatsby-plugin-twitter`,
     {
       resolve: "gatsby-plugin-mailchimp",
       options: {
@@ -53,6 +54,12 @@ module.exports = {
       options: {
         plugins: [
           `gatsby-remark-reading-time`,
+          {
+            resolve: `@weknow/gatsby-remark-twitter`,
+            options: {
+              debug: true
+            }
+          },
           {
             resolve: `gatsby-remark-images`,
             options: {

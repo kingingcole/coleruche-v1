@@ -5,6 +5,7 @@ featuredImage: "./featured-image.jpg"
 type: post
 description: We will look at how to send images to a back end with React forms. 
 published: true
+altText: picture of boy holding up a small picture
 ---
 
 So I would be writing about a very challenging task I faced when building a test project for a job I applied to: I was asked to build a React app that lets users add products with descriptions, categories, and an image, while utilising an API. So the issue was that I have built a few learning apps that gets data from a React form and send it to a backend through an API POST call to a REST API - but never an image!

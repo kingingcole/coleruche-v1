@@ -53,9 +53,9 @@ class BlogPostTemplate extends React.Component {
             <span style={{marginLeft: '10px', color:'gray'}}><CommentCount config={disqusConfig} placeholder={'...'} /></span>
           </span>
            </p>
-        <Img  sizes={post.frontmatter.featuredImage.childImageSharp.sizes}/>
+        <Img alt={post.frontmatter.altText} sizes={post.frontmatter.featuredImage.childImageSharp.sizes}/>
         <br/><br/>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} style={{maxWidth: '700px', margin: 'auto', textAlign: 'left', lineHeight: '1.8em'}}/>
+        <div dangerouslySetInnerHTML={{ __html: post.html }} style={{maxWidth: '700px', margin: 'auto', textAlign: 'left', lineHeight: '1.8em', fontSize: '1.1rem'}}/>
         <Disqus config={disqusConfig} />
 
 
@@ -108,6 +108,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        altText
         featuredImage{
          childImageSharp{
           sizes(maxWidth: 1000, maxHeight: 600){
