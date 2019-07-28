@@ -61,6 +61,7 @@ p {
 	font-size: 1rem
 }
 ```
+
 The size of the `p` tag comes out as 62.5% (of 16px, which is 10px) and not 100% (16px) as it is relative to the `html` font size and not that of the body tag.
 The `rem` unit is not widely used, and so you might not need to use it.
 - ___%___: Defines a size relative to the parent element.
