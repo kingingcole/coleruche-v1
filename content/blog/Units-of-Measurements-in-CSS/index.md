@@ -48,6 +48,7 @@ This sets the font size to 32px, i.e 2 * 16px.<br/>
 ___em___ is scalable and are mobile-device-friendly.
 - ___rem___: Stands for '___r___oot ___em___'. This is the font size relative to the root element, which is the `html` tag.<br/>
 Consider the style below: 
+
 ```css
 html {
 	font-size: 62.5%;
