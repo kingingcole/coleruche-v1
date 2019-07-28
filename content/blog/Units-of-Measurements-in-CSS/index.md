@@ -1,6 +1,6 @@
 ---
 title: Units of Measurements in CSS
-date: "2019-05-26T22:40:32.169Z"
+date: "2019-07-29T22:40:32.169Z"
 featuredImage: "./featured-image.jpg"
 type: post
 description: Units of measurements used when styling HTML elements in CSS
@@ -46,8 +46,7 @@ p {
 ```
 This sets the font size to 32px, i.e 2 * 16px.<br/>
 ___em___ is scalable and are mobile-device-friendly.
-- ___rem___: Stands for '___r___oot ___em___'. This is the font size relative to the root element, which is the `html` tag. 
-
+- ___rem___: Stands for '___r___oot ___em___'. This is the font size relative to the root element, which is the `html` tag.<br/>
 Consider the style below: 
 ```css
 html {

@@ -20,12 +20,13 @@ class BlogIndex extends React.Component {
         <Bio/>
         <div className='row'>
           {posts.map(({ node }) => {
-            console.log(node)
+            // console.log(node)
             const title = node.frontmatter.title || node.fields.slug
             let url = `post${node.fields.slug}`
+            let readingTime = node.fields.readingTime.text
             return (
               <PostCard title={title} url={url} image={node.frontmatter.featuredImage.childImageSharp.fluid}
-                        date={node.frontmatter.date}/>
+                        date={node.frontmatter.date} readingTime={readingTime}/>
             )
           })}
         </div>
@@ -49,6 +50,9 @@ export const pageQuery = graphql`
           excerpt
           fields {
             slug
+            readingTime {
+              text
+            }
           }
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
