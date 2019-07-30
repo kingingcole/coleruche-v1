@@ -98,6 +98,53 @@ This is what a Twitter user, Florin, has to say:
 
 Now, whatever method you choose to use, it is recommended to use at least 16px (1em) for body text and em as the go-to unit. This ensures the font size is relative to the default font size, which is the size the reader can comfortably read. It also ensures the size scales well on different screen sizes and density. Although we can choose to ignore this, as modern browsers and devices provide tools to increase font size and display, it would not hurt to design with a11y in mind.
 
+As was rightly pointed out by [Brent Clark](https://twitter.com/Brent_m_Clark), using `em` also comes with it's own issues: it is relative to the size of the parent, which in turn depends on other parent(s). For example, consider the code below:
+
+```html
+<!-- HTML -->
+<body>
+    <p class='outer-p'> 
+        Outer paragraph
+        <p class='nested-p'> Nested paragraph</p>
+    </p>
+</body>
+
+<!-- CSS -->
+<style>
+    body{font-size: 16px}
+    .outer-p{font-size: 2em}
+    .nested-p{font-size: 1.5em}
+</style>
+```
+
+From the above code, we need the `outer-p` paragraph to be 2em, and rightly it will be 32px, as it will be x2 of the immediate parent, the body, which was already set to 16px.<br/>
+Now, if wanted to set our `nested-p` paragraph to 1.5em and expect it to come out as 24px (i.e 1.5*16px), we'll be disappointed as the size comes out as 48px. This behaviour is because `em` is relative to whatever size the parent has. In this case, `nested-p` is a child of `outer-p`, which already has a size of 32px. This explains why it comes out as 48px, I.e 1.5*32px.<br/>
+This behavior of `em` should be put into consideration when using it.
+
+In order yo avoid unwanted outcomes that might be associated with `em`, I believe that was why the `rem` was introduced. With this, just set the default style on the `html` directly and then use `rem` as your CSS unit, this way you're sure they all refer to the `html` tag style size and not on their parent's sizes.
+
+For example, using the same code above, to get the desired sizes for `outer-p` and `nested-p`, which are 32px and 24px respectively, we'll _refractor_ to this:
+
+
+```html
+<!-- HTML -->
+<body>
+    <p class='outer-p'> 
+        Outer paragraph
+        <p class='nested-p'> Nested paragraph</p>
+    </p>
+</body>
+
+<!-- CSS -->
+<style>
+    html{font-size: 16px}
+    .outer-p{font-size: 2rem}
+    .nested-p{font-size: 1.5rem}
+</style>
+```
+
+By doing so, the font sizes are now all relative to the root style, in this case `html`.
+
 As for me, I will _try_ to stick to this little snippet I found:
 ```css
 body {
