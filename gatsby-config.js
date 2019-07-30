@@ -115,8 +115,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Emeruche Ikenna`,
-        short_name: `cole_ruche`,
+        name: `Cole Ruche`,
+        short_name: `Cole`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#00baba40`,
