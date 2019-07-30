@@ -121,9 +121,9 @@ From the above code, we need the `outer-p` paragraph to be 2em, and rightly it w
 Now, if wanted to set our `nested-p` paragraph to 1.5em and expect it to come out as 24px (i.e 1.5 * 16px), we'll be disappointed as the size comes out as 48px. This behaviour is because `em` is relative to whatever size the parent has. In this case, `nested-p` is a child of `outer-p`, which already has a size of 32px. This explains why it comes out as 48px, I.e 1.5 * 32px.<br/>
 This behavior of `em` should be put into consideration when using it.
 
-In order yo avoid unwanted outcomes that might be associated with `em`, I believe that was why the `rem` was introduced. With this, just set the default style on the `html` directly and then use `rem` as your CSS unit, this way you're sure they all refer to the `html` tag style size and not on their parent's sizes.
+In order to avoid unwanted outcomes that might be associated with `em`, I believe that was why the `rem` was introduced. With this, just set the default style on the `html` directly and then use `rem` as your CSS unit, this way you're sure they all refer to the `html` tag style size and not on their parent's sizes.
 
-For example, using the same code above, to get the desired sizes for `outer-p` and `nested-p`, which are 32px and 24px respectively, we'll _refractor_ to this:
+For example, using the same code above, to get the desired sizes for `outer-p` and `nested-p`, which are 32px and 24px respectively, we'll _refactor_ to this:
 
 
 ```html
