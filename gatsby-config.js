@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Cole Ruche`,
     author: `Emeruche Cole`,
-    description: `Blog post started by Emeruche Cole to write about programming mostly, and also health and medical stuff.`,
+    description: `Blog post started by Emeruche Cole to share about stuff I learn about programming and even related to it.`,
     siteUrl: `https://colesblog.netlify.com/`,
     social: {
       twitter: `cole_ruche`,
