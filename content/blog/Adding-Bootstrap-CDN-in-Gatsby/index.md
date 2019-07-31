@@ -11,7 +11,7 @@ altText: brown leather boots
 This post is intended to help out developers who love using Gatsby JS and Twitter Bootstrap and would absolutely love to use them together in one project - _lovely!_
 One issue you might come across would be how to link them both up. For this you have two options: you can use supported packages like [React Bootstrap](https://react-bootstrap.netlify.com/) or [reactstrap](https://reactstrap.github.io/); or you can include in CDN links to your app.
 
-While the first option is quite great, I feel it is a bit too of an overkill to use, especially if what you need from Bootstrap is just the juicy CSS. non-jQuery part and functionality like the grid system or typography.  If so, we will go with the second option. This sounds easy, till you discover that Gatsby apps created with the [starters](https://www.gatsbyjs.org/starters/) have no `index.html` file like in normal React apps made with `create-react-app`, or any other front end project.
+While the first option is quite great, I feel it is a bit too much of an overkill to use, especially if what you need from Bootstrap is just the juicy CSS. non-jQuery part and functionality like the grid system or typography.  If so, we will go with the second option. This sounds easy, till you discover that Gatsby apps created with the [starters](https://www.gatsbyjs.org/starters/) have no `index.html` file like in normal React apps made with `create-react-app`, or any other front end project.
 
 Now where do we include our CDN links? There is no `html` file, hence no `head` tag. This is where the purpose of this article comes into play.
 
