@@ -1,10 +1,10 @@
 ---
 title: Adding Bootstrap CDN link to Gatsby
-date: "2019-05-26T22:40:32.169Z"
+date: "2019-08-03T22:40:32.169Z"
 featuredImage: "./featured-image.jpg"
 type: post
 description: We wil take a look into how to set up a Gatsby JS site to use Twitter Bootstrap's CDN
-published: false
+published: true
 altText: brown leather boots
 ---
 
