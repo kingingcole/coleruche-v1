@@ -20,7 +20,7 @@ class Works extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="Works"/>
+        <SEO title="Works" description="A view of projects and code built by Emeruche Cole"/>
         <Bio/>
         <div className='row text-center mb-5'>
           <div className='col-12'><h4>Here are a few of my projects.</h4></div>
