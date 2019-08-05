@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Cole Ruche`,
-    author: `Emeruche Cole`,
-    description: `Blog post started by Emeruche Cole to share about stuff I learn about programming and even related to it.`,
-    siteUrl: `https://colesblog.netlify.com/`,
+    title: `Cole Emeruche`,
+    author: `Cole Emeruche`,
+    description: `Blog post started by Emeruche Cole to share about stuff I learn about programming and everything related to it.`,
+    siteUrl: `https://colesblog.com/`,
     social: {
       twitter: `cole_ruche`,
       github: `kingingcole`,
@@ -23,7 +23,7 @@ module.exports = {
       resolve: `gatsby-plugin-nprogress`,
       options: {
         // Setting a color is optional.
-        color: `#000`,
+        color: `#00baba`,
         // Disable the loading spinner.
         showSpinner: false,
       },
