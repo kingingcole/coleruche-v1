@@ -119,7 +119,7 @@ module.exports = {
         short_name: `Cole`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#00baba40`,
+        theme_color: `#00baba`,
         display: `minimal-ui`,
         icon: `content/assets/icon.jpg`,
       },
