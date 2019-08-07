@@ -39,8 +39,6 @@ exports.createPages = ({ graphql, actions }) => {
 
       let path = `post${slug}`;
 
-      if (post.node.frontmatter.type === 'work' || !post.node.frontmatter.published) return null
-
       createPage({
         path,
         component: blogPost,
