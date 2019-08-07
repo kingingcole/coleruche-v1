@@ -8,6 +8,7 @@ module.exports = {
       'Emeruche',
       'Cole',
       'Ikenna',
+      'Ruche',
       'React developer',
       'Front-end Engineer'
     ],
