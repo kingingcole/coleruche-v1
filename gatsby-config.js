@@ -3,7 +3,7 @@ module.exports = {
     title: `Cole Emeruche`,
     author: `Cole Emeruche`,
     description: `Blog post started by Emeruche Cole to share about stuff I learn about programming and everything related to it.`,
-    siteUrl: `https://colesblog.com/`,
+    siteUrl: `https://coleruche.com/`,
     keywords: [
       'Emeruche',
       'Cole',
