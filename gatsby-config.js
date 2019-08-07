@@ -4,6 +4,13 @@ module.exports = {
     author: `Cole Emeruche`,
     description: `Blog post started by Emeruche Cole to share about stuff I learn about programming and everything related to it.`,
     siteUrl: `https://colesblog.com/`,
+    keywords: [
+      'Emeruche',
+      'Cole',
+      'Ikenna',
+      'React developer',
+      'Front-end Engineer'
+    ],
     social: {
       twitter: `cole_ruche`,
       github: `kingingcole`,
@@ -13,6 +20,17 @@ module.exports = {
   plugins: [
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-twitter`,
+    {
+      resolve: `gatsby-plugin-sitemap`
+    },
+    {
+      resolve: `gatsby-plugin-robots-txt`,
+      options: {
+        policy: [{
+          userAgent: '*', allow: '/'
+        }]
+      }
+    },
     {
       resolve: "gatsby-plugin-mailchimp",
       options: {
