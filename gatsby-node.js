@@ -17,6 +17,7 @@ exports.createPages = ({ graphql, actions }) => {
           frontmatter {
             title
             type
+            published
           }
         }
       }
@@ -38,7 +39,7 @@ exports.createPages = ({ graphql, actions }) => {
 
       let path = `post${slug}`;
 
-      if (post.node.frontmatter.type === 'work') return null
+      if (post.node.frontmatter.type === 'work' && !post.node.frontmatter.published) return null
 
       createPage({
         path,
