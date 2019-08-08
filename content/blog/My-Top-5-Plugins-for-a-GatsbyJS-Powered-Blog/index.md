@@ -4,7 +4,7 @@ date: "2019-08-07T22:40:32.169Z"
 featuredImage: "./featured-image.jpg"
 type: post
 description: A look into what I think are my best plugins for a blog site created with GatsbyJS and Markdown
-published: true
+published: false
 altText: numerous books open on a board
 ---
 
