@@ -56,7 +56,7 @@ class BlogPostTemplate extends React.Component {
         <Img alt={post.frontmatter.altText} sizes={post.frontmatter.featuredImage.childImageSharp.sizes}/>
         <small style={{fontSize: '0.8rem', display: 'block', textAlign: 'center', marginTop: '3px'}}>{post.frontmatter.altText}</small>
         <br/><br/>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} style={{maxWidth: '700px', margin: 'auto', textAlign: 'left', lineHeight: '1.8em', fontSize: '1.1rem'}}/>
+        <div dangerouslySetInnerHTML={{ __html: post.html }} style={{maxWidth: '700px', margin: 'auto', textAlign: 'justify', lineHeight: '1.8em', fontSize: '1.1rem'}}/>
         <Disqus config={disqusConfig} />
 
 
