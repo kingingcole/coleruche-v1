@@ -63,4 +63,30 @@ To use, `yarn add gatsby-transformer-remark gatsby-remark-prismjs prismjs`. This
 This helps you link your [Disqus](https://disqus.com/) account to yor blog. It enables you activate comments and reactions to your blog pages. Thus, it allows interaction between you and your audience. From here, you can get feedbacks and see what your readers think and feel about your works and writing.<br/>
 For usage and instructions, visit [here](https://www.gatsbyjs.org/packages/gatsby-plugin-disqus/).
  
- 
+###gatsby-plugin-robots-txt
+This is a gatsby plugin that automatically creates robots.txt for your site. According to [NeilPatel](https://neilpatel.com/blog/robots-txt/), _"The robots.txt file, also known as the robots exclusion protocol or standard, is a text file that tells web robots (most often search engines) which pages on your site to crawl."_ Having a `robots.txt` file is good for SEO as it tells the search engine (e.g Googlebots) instructions on how to crawl your site. To add this to your site, run `yarn add gatsby-plugin-robots-txt` and for the simplest implementation, add the code below to your project's `gatsby-config.js`:
+```js
+plugins: ['gatsby-plugin-robots-txt']
+```
+For additional configurations, visit the [plugin page](https://www.gatsbyjs.org/packages/gatsby-plugin-robots-txt/?=gatsby-plugin-robots-txt)
+
+###gatsby-plugin-manifest
+Gatsby plugin which adds a `manifest.webmanifest` to make sites progressive web apps. This plugin comes with features that turns your app to a [progressive web app](https://www.google.com/url?sa=t&source=web&rct=j&url=https://developers.google.com/web/progressive-web-apps/&ved=2ahUKEwj_vruhuvTjAhUJShUIHSdHC_cQFjAhegQIBBAC&usg=AOvVaw0dIOwy-hAgSXFNdlBrXXwO) - auto icon generation, favicon support and caching, all taken care of. It is recommended to use this plugin together with [Gatsby a plugins offline](https://www.gatsbyjs.org/packages/gatsby-plugin-offline/?=gatsby-plugin-offline) for best results. To use, run `yarn add Gatsby a plugins offline gatsby-plugin-manfest`.
+Open your config file and paste below:
+```js
+plugins: [
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `GatsbyJS`,
+        short_name: `GatsbyJS`,
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        theme_color: `#a2466c`,
+        display: `standalone`,
+      },
+    },
+    'gatsby-plugin-offline'
+  ],
+```
+Make sure to replace necessary lines with your own details.
