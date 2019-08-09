@@ -71,7 +71,7 @@ plugins: ['gatsby-plugin-robots-txt']
 For additional configurations, visit the [plugin page](https://www.gatsbyjs.org/packages/gatsby-plugin-robots-txt/?=gatsby-plugin-robots-txt)
 
 ###gatsby-plugin-manifest
-Gatsby plugin which adds a `manifest.webmanifest` to make sites progressive web apps. This plugin comes with features that turns your app to a [progressive web app](https://www.google.com/url?sa=t&source=web&rct=j&url=https://developers.google.com/web/progressive-web-apps/&ved=2ahUKEwj_vruhuvTjAhUJShUIHSdHC_cQFjAhegQIBBAC&usg=AOvVaw0dIOwy-hAgSXFNdlBrXXwO) - auto icon generation, favicon support and caching, all taken care of. It is recommended to use this plugin together with [Gatsby a plugins offline](https://www.gatsbyjs.org/packages/gatsby-plugin-offline/?=gatsby-plugin-offline) for best results. To use, run `yarn add Gatsby a plugins offline gatsby-plugin-manfest`.
+Gatsby plugin which adds a `manifest.webmanifest` to make sites progressive web apps. This plugin comes with features that turns your app to a [progressive web app](https://www.google.com/url?sa=t&source=web&rct=j&url=https://developers.google.com/web/progressive-web-apps/&ved=2ahUKEwj_vruhuvTjAhUJShUIHSdHC_cQFjAhegQIBBAC&usg=AOvVaw0dIOwy-hAgSXFNdlBrXXwO) - auto icon generation, favicon support and caching, all taken care of. It is recommended to use this plugin together with [gatsby-plugin-offline](https://www.gatsbyjs.org/packages/gatsby-plugin-offline/?=gatsby-plugin-offline) for best results. To use, run `yarn add Gatsby a plugins offline gatsby-plugin-manfest`.
 Open your config file and paste below:
 ```js
 plugins: [
@@ -90,3 +90,7 @@ plugins: [
   ],
 ```
 Make sure to replace necessary lines with your own details.
+
+###gatsby-plugin-google-analytics
+
+This is used to add google analytics to your blog. This helps you get useful information about your visitors like demographics, device information, pages and stuff
