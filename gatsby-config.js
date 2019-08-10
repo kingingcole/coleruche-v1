@@ -20,7 +20,6 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-catch-links`,
-    `gatsby-plugin-netlify-cache`,
     `gatsby-plugin-twitter`,
     {
       resolve: `gatsby-plugin-sitemap`
