@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Cole Emeruche`,
     author: `Cole Emeruche`,
-    description: `Blog post started by Emeruche Cole to share about stuff I learn about programming and everything related to it.`,
+    description: `Blog post started by Emeruche "Cole" Ikenna to share about stuff I learn about programming and everything related to it.`,
     siteUrl: `https://coleruche.com/`,
     keywords: [
       'Emeruche',
