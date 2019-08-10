@@ -8,14 +8,14 @@ published: true
 altText: numerous books open on a board
 ---
 
-For sometime, I did not quite get the idea of static page generators, especially Gatsby JS. It was until I decided to give it a try and I discovered how amazing a technology it is! Gatsby JS, amongst all other super things, is used to create a stunning and blazingly fast blog, which can use varying data sources like Contentful CMS, WordPress or plain old Markdown.
+For sometime, I did not quite get the idea of static page generators, especially Gatsby JS. It was until I decided to give it a try and I discovered how amazing a technology it is! Gatsby JS, amongst all other super things, is used to create a stunning and blazing fast blog, which can use varying data sources like Contentful CMS, WordPress or plain old Markdown.
 For the later, it's simply easy to set up and use.<br/>
 _This awesome blog was built with Gatsby and Markdown._
 
 Now, while this won't be a tutorial to set up Gatsby with Markdown, I'll be showing you some awesome plugins I have come across so far, and I use in my Gatsby blog site.
-Some of these plugins help in UI, UX, others help in integration with useful but services, which otherwise would have been pretty difficult (or maybe not) to set up.
+Some of these plugins help in UI, UX, SEO, others help in integration with useful services, which otherwise would have been pretty difficult (or maybe not) to set up.
 
->Some of these plugins were designed to work with Markdown. But most of them work with Gatsby sites with data sources from anywhere.
+>These plugins are not entirely _top_ per se - there are more important plugins that comes with a Gatsby starter, but these are my favorite extras to add.
 
 In no particular order, let's get started:
 
@@ -102,3 +102,20 @@ This is used to add [google analytics](https://www.google.com/url?sa=t&source=we
 },
 ```
 For more options and configurations, visit the [plugin page](https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/)
+
+
+###gatsby-plugin-sitemap
+This plugin generates a sitemap for your site. Sitemaps are _highly_ [recommended for SEO purposes](https://www.seeme-media.com/what-is-a-sitemap/). And it will do you a lot of good to add a plugin for it. To get started, install the plugin by running `yarn add gatsby-plugin-sitemap` and then add the following line of code to your Gatsby config:
+```javascript
+plugins: [`gatsby-plugin-sitemap`]
+```
+The line above is the minimum configuration needed and the generates sitemap will include all of your site's pages by default. If for some reason, you don't want this behavior and need to exclude some pages, visit [this page](https://www.gatsbyjs.org/packages/gatsby-plugin-sitemap/?=) for additional configurations.
+
+> NOTE: This plugin only generates output when run in `production` mode! To test your sitemap, run: `gatsby build && gatsby serve`
+
+<br/>
+
+The plugins above are just a very itsy-bitsy of the over 1000 supported plugins in the [Gatsby library](https://www.gatsbyjs.org/plugins/?=), but they're just the few I have worked with and loved. Some of these plugins come bundled in some starters and you may not need to install them yourselves.
+
+I'll be very glad to get a feedback on some of these plugins, and to know which extra plugins you love. Please tell us in the comment section.
+
