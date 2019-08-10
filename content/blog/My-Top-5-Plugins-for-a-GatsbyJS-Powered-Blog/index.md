@@ -1,5 +1,5 @@
 ---
-title: My Top 5 Plugins for a GatsbyJS Powered Blog
+title: My Top Plugins for a GatsbyJS Powered Blog
 date: "2019-08-07T22:40:32.169Z"
 featuredImage: "./featured-image.jpg"
 type: post
