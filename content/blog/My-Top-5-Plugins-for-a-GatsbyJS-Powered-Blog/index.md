@@ -93,4 +93,12 @@ Make sure to replace necessary lines with your own details.
 
 ###gatsby-plugin-google-analytics
 
-This is used to add google analytics to your blog. This helps you get useful information about your visitors like demographics, device information, pages and stuff
+This is used to add [google analytics](https://www.google.com/url?sa=t&source=web&rct=j&url=https://analytics.google.com/analytics/web/&ved=2ahUKEwjoq6CRj_jjAhVPSxUIHaH9CB0QFjAAegQIBRAB&usg=AOvVaw095EntAfOjiijSk290zWyQ) to your blog. This helps you get useful information about your visitors like demographics, device information, pages and stuff like that. It helps in knowing which pages are most visited, which country represents most of your visitors, which devices s are most used by your visitors and so, helps you to make better content targeted at your particular choice of audience. To use, run `yarn add gatsby-plugin-google-analytics` and then add the code below to your `plugins`:
+```js
+{
+  resolve: `gatsby-plugin-google-analytics`,
+    options: {
+       trackingId: `UA-105405908-2`,
+},
+```
+For more options and configurations, visit the [plugin page](https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/)
