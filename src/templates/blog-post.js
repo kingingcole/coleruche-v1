@@ -17,6 +17,8 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = this.props.data.site.siteMetadata.title
     const url = this.props.data.site.siteMetadata.siteUrl
     const { previous, next } = this.props.pageContext
+    const featuredImg = post.frontmatter.featuredImage.childImageSharp.sizes
+    const featuredImgUrl = post.frontmatter.featuredImage.childImageSharp.sizes.src
 
     //for disqus
     let disqusConfig = {
@@ -30,6 +32,7 @@ class BlogPostTemplate extends React.Component {
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
+          featuredImg={featuredImgUrl}
         />
         <h1
           style={{
@@ -53,7 +56,7 @@ class BlogPostTemplate extends React.Component {
             <span style={{marginLeft: '10px', color:'gray'}}><CommentCount config={disqusConfig} placeholder={'...'} /></span>
           </span>
            </p>
-        <Img alt={post.frontmatter.altText} sizes={post.frontmatter.featuredImage.childImageSharp.sizes}/>
+        <Img alt={post.frontmatter.altText} sizes={featuredImg}/>
         <small style={{fontSize: '0.8rem', display: 'block', textAlign: 'center', marginTop: '3px'}}>{post.frontmatter.altText}</small>
         <br/><br/>
         <div dangerouslySetInnerHTML={{ __html: post.html }} style={{maxWidth: '700px', margin: 'auto', textAlign: 'justify', lineHeight: '1.5em', fontSize: '1rem'}}/>
