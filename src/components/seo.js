@@ -20,6 +20,9 @@ function SEO({ description, lang, meta, title, featuredImg }) {
             description
             author
             keywords
+            social {
+             twitter
+            }
           }
         }
       }
@@ -29,7 +32,7 @@ function SEO({ description, lang, meta, title, featuredImg }) {
   const metaDescription = description || site.siteMetadata.description
   const {keywords} = site.siteMetadata
   const logoUrl = "https://res.cloudinary.com/cole/image/upload/v1564347375/Uploads/me.jpg"
-
+  const {twitter} = site.siteMetadata.social
 
   return (
     <>
@@ -63,14 +66,18 @@ function SEO({ description, lang, meta, title, featuredImg }) {
         {
           property: `og:image`, 
           content: featuredImg || logoUrl, 
+        }, 
+        {
+          name:`twitter:image`, 
+          content: featuredImg || logoUrl, 
         },
         {
           name: `twitter:card`,
-          content: `summary`,
+          content: `summary_large_image`,
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata.author,
+          content: `@{twitter}`,
         },
         {
           name: `twitter:title`,
