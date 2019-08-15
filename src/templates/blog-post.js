@@ -18,7 +18,8 @@ class BlogPostTemplate extends React.Component {
     const url = this.props.data.site.siteMetadata.siteUrl
     const { previous, next } = this.props.pageContext
     const featuredImg = post.frontmatter.featuredImage.childImageSharp.sizes
-    const featuredImgUrl = post.frontmatter.featuredImage.childImageSharp.sizes.src
+    const BASE_URL = `https://coleruche.com`
+    const featuredImgUrl = BASE_URL + post.frontmatter.featuredImage.childImageSharp.sizes.src
 
     //for disqus
     let disqusConfig = {
