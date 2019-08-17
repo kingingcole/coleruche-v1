@@ -24,6 +24,7 @@ const Me = () => {
       <SEO
         title={`Me`}
         description={`About Emeruche Cole`}
+        featuredImg={data.avatar.childImageSharp.sizes.src}
       />
       <div className="row">
         <div className="col-sm-12 col-md-5 mb-5 my-auto">

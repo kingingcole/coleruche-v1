@@ -11,63 +11,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/works/blermo/index.md">
+        <entry file="file://$PROJECT_DIR$/content/blog/Crossposting-To-Medium-and-Dev.to/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="216">
-                <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-              </first_editor>
+              <first_editor />
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/works/jobhuntr/index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="216">
-                <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/works/todo-hooks/index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="216">
-                <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/works/emerucheCole/index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="216">
-                <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/content/blog/Crossposting-To-Medium-and-Dev.to/featured-image.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/content/works/myMDB/index.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="216">
-                <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/content/blog/Adding-Bootstrap-CDN-in-Gatsby/featured-image.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/blog/My-Top-5-Plugins-for-a-GatsbyJS-Powered-Blog/featured-image.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -159,6 +124,27 @@
               <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="myblog" type="462c0819:PsiDirectoryNode" />
               <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="Adding-Bootstrap-CDN-in-Gatsby" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="Crossposting-To-Medium-and-Dev.to" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="My-Top-5-Plugins-for-a-GatsbyJS-Powered-Blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
               <item name="works" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -188,13 +174,6 @@
               <item name="content" type="462c0819:PsiDirectoryNode" />
               <item name="works" type="462c0819:PsiDirectoryNode" />
               <item name="myMDB" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="works" type="462c0819:PsiDirectoryNode" />
-              <item name="todo-hooks" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -257,15 +236,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75379000" />
+    <option name="totallyTimeSpent" value="75866000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
-      <window_info id="npm" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25297618" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="npm" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32872504" />
@@ -431,9 +410,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/blog/Adding-Bootstrap-CDN-in-Gatsby/featured-image.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/gatsby-browser.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -457,16 +433,6 @@
     <entry file="file://$PROJECT_DIR$/public/offline-plugin-app-shell-fallback/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-168" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/blog/Adding-Bootstrap-CDN-in-Gatsby/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="3" selection-start-column="3" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/blog/Units-of-Measurements-in-CSS/index.md">
@@ -544,13 +510,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/works/todo-hooks/index.md.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/content/works/todo-hooks/index.md.js" />
     <entry file="file://$PROJECT_DIR$/.prettierrc">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -603,6 +563,33 @@
           <second_editor />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/blog/Adding-Bootstrap-CDN-in-Gatsby/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="3" selection-start-column="3" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/blog/Crossposting-To-Medium-and-Dev.to/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/blog/My-Top-5-Plugins-for-a-GatsbyJS-Powered-Blog/featured-image.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/blog/Crossposting-To-Medium-and-Dev.to/featured-image.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/blog/Adding-Bootstrap-CDN-in-Gatsby/featured-image.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
