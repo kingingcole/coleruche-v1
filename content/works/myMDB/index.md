@@ -7,5 +7,5 @@ published: true
 tech: React, Redux, Django, Django RF, Heroku, Twitter Bootstrap
 link: https://colemovies.herokuapp.com
 repo: movie-library
-position: 2
+position: 3
 ---
