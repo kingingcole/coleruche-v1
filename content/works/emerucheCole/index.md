@@ -7,5 +7,5 @@ published: true
 tech: Django, Heroku, Amazon S3, Twitter Bootstrap
 link: https://emeruchecole.herokuapp.com
 repo: emeruchecole
-position: 3
+position: 4
 ---

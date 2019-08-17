@@ -7,5 +7,5 @@ published: true
 tech: React, Heroku, Twitter Bootstrap
 link: https://jobhuntr-develop.herokuapp.com
 repo: jobhuntr
-position: 1
+position: 2
 ---
