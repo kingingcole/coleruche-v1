@@ -1,4 +1,4 @@
-  import React from "react"
+import React from "react"
 import { Link } from "gatsby"
 import Navbar from "../components/navbar"
 import Footer from "../components/footer"
@@ -12,9 +12,12 @@ class Layout extends React.Component {
 
     return (
       <div>
-        <header><Navbar /></header>
-        <div style={{background: `rgba(0,186,186,0.020)`}}>
-          <div className='container content'
+        <header>
+          <Navbar />
+        </header>
+        <div style={{ background: `rgba(0,186,186,0.020)` }}>
+          <div
+            className="container content"
             style={{
               marginLeft: `auto`,
               marginRight: `auto`,
@@ -23,11 +26,11 @@ class Layout extends React.Component {
             }}
           >
             <main>{children}</main>
-            <Subscribe/>
+            <Subscribe />
           </div>
         </div>
         <footer>
-            <Footer />
+          <Footer />
         </footer>
       </div>
     )

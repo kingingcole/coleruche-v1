@@ -5,12 +5,12 @@ module.exports = {
     description: `Blog post started by Emeruche "Cole" Ikenna to share about stuff I learn about programming and everything related to it.`,
     siteUrl: `https://coleruche.com/`,
     keywords: [
-      'Emeruche',
-      'Cole',
-      'Ikenna',
-      'Ruche',
-      'React developer',
-      'Front-end Engineer'
+      "Emeruche",
+      "Cole",
+      "Ikenna",
+      "Ruche",
+      "React developer",
+      "Front-end Engineer",
     ],
     social: {
       twitter: `cole_ruche`,
@@ -21,17 +21,17 @@ module.exports = {
   plugins: [
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-twitter`,
-    'gatsby-plugin-netlify-cache',
+    "gatsby-plugin-netlify-cache",
     {
-      resolve: `gatsby-plugin-sitemap`
+      resolve: `gatsby-plugin-sitemap`,
     },
     {
       resolve: `gatsby-plugin-robots-txt`,
       options: {
         policy: [{
-          userAgent: '*', allow: '/'
-        }]
-      }
+          userAgent: "*", allow: "/",
+        }],
+      },
     },
     {
       resolve: "gatsby-plugin-mailchimp",
@@ -77,8 +77,8 @@ module.exports = {
           {
             resolve: `@weknow/gatsby-remark-twitter`,
             options: {
-              debug: true
-            }
+              debug: true,
+            },
           },
           {
             resolve: `gatsby-remark-images`,
@@ -128,10 +128,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-         trackingId: `UA-105405908-2`,
+        trackingId: `UA-105405908-2`,
       },
     },
-    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -158,5 +157,69 @@ module.exports = {
         shortname: `colesblog-netlify-com`,
       },
     },
+
+    {
+      resolve: `gatsby-plugin-feed`,
+      options: {
+        query: `
+          {
+            site {
+              siteMetadata {
+                title
+                description
+                siteUrl
+                site_url: siteUrl
+              }
+            }
+          }
+        `,
+        feeds: [
+          {
+            serialize: ({ query: { site, allMarkdownRemark } }) => {
+              return allMarkdownRemark.edges.map(edge => {
+                if (edge.node.frontmatter.type === "work" || (edge.node.frontmatter.type === "post" && !edge.node.frontmatter.published) ) return; // do no include WORK markdown and unpublished article to rss
+                return Object.assign({}, edge.node.frontmatter, {
+                  description: edge.node.frontmatter.description,
+                  date: edge.node.frontmatter.date,
+                  url: site.siteMetadata.siteUrl + '/post/' + edge.node.fields.slug,
+                  guid: site.siteMetadata.siteUrl + '/post/' + edge.node.fields.slug,
+                  custom_elements: [{ "content:encoded": edge.node.html }],
+                })
+              })
+            },
+            query: `
+              {
+                allMarkdownRemark(
+                  sort: { order: DESC, fields: [frontmatter___date] },
+                ) {
+                  edges {
+                    node {
+                      excerpt
+                      html
+                      fields { slug }
+                      frontmatter {
+                        title
+                        date
+                        type
+                        published
+                        description
+                      }
+                    }
+                  }
+                }
+              }
+            `,
+            output: "/rss.xml",
+            title: "Your Site's RSS Feed",
+            // optional configuration to insert feed reference in pages:
+            // if `string` is used, it will be used to create RegExp and then test if pathname of
+            // current page satisfied this regular expression;
+            // if not provided or `undefined`, all pages will have feed reference inserted
+            match: "^/blog/",
+          },
+        ],
+      },
+    },
+
   ],
 }

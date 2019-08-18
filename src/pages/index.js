@@ -16,17 +16,22 @@ class BlogIndex extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="Blog"/>
-        <Bio/>
-        <div className='row'>
+        <SEO title="Blog" />
+        <Bio />
+        <div className="row">
           {posts.map(({ node }) => {
             // console.log(node)
             const title = node.frontmatter.title || node.fields.slug
             let url = `post${node.fields.slug}`
             let readingTime = node.fields.readingTime.text
             return (
-              <PostCard title={title} url={url} image={node.frontmatter.featuredImage.childImageSharp.fluid}
-                        date={node.frontmatter.date} readingTime={readingTime}/>
+              <PostCard
+                title={title}
+                url={url}
+                image={node.frontmatter.featuredImage.childImageSharp.fluid}
+                date={node.frontmatter.date}
+                readingTime={readingTime}
+              />
             )
           })}
         </div>
@@ -44,7 +49,10 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(filter: {frontmatter: {type: {eq: "post"}, published: {eq: true}}}, sort: {fields: frontmatter___date, order: DESC}) {
+    allMarkdownRemark(
+      filter: { frontmatter: { type: { eq: "post" }, published: { eq: true } } }
+      sort: { fields: frontmatter___date, order: DESC }
+    ) {
       edges {
         node {
           excerpt
@@ -59,7 +67,7 @@ export const pageQuery = graphql`
             title
             description
             featuredImage {
-              childImageSharp{
+              childImageSharp {
                 fluid(quality: 90, maxWidth: 4160) {
                   ...GatsbyImageSharpFluid_withWebp
                 }

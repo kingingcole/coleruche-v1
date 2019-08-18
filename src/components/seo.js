@@ -21,7 +21,7 @@ function SEO({ description, lang, meta, title, featuredImg }) {
             author
             keywords
             social {
-             twitter
+              twitter
             }
           }
         }
@@ -30,66 +30,66 @@ function SEO({ description, lang, meta, title, featuredImg }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
-  const {keywords} = site.siteMetadata
-  const logoUrl = "https://res.cloudinary.com/cole/image/upload/v1564347375/Uploads/me.jpg"
-  const {twitter} = site.siteMetadata.social
+  const { keywords } = site.siteMetadata
+  const logoUrl =
+    "https://res.cloudinary.com/cole/image/upload/v1564347375/Uploads/me.jpg"
+  const { twitter } = site.siteMetadata.social
 
   return (
     <>
       <Helmet
-      htmlAttributes={{
-        lang,
-      }}
-      title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
-      meta={[
-        {
-          name: `keywords`,
-          content: keywords
-        },
-        {
-          name: `description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:title`,
-          content: title,
-        },
-        {
-          property: `og:description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:type`,
-          content: `website`,
-        }, 
-        {
-          property: `og:image`, 
-          content: featuredImg || logoUrl, 
-        }, 
-        {
-          name:`twitter:image`, 
-          content: featuredImg || logoUrl, 
-        },
-        {
-          name: `twitter:card`,
-          content: `summary_large_image`,
-        },
-        {
-          name: `twitter:creator`,
-          content: `@${twitter}`,
-        },
-        {
-          name: `twitter:title`,
-          content: title,
-        },
-        {
-          name: `twitter:description`,
-          content: metaDescription,
-        },
-      ].concat(meta)}
-    />
-  
+        htmlAttributes={{
+          lang,
+        }}
+        title={title}
+        titleTemplate={`%s | ${site.siteMetadata.title}`}
+        meta={[
+          {
+            name: `keywords`,
+            content: keywords,
+          },
+          {
+            name: `description`,
+            content: metaDescription,
+          },
+          {
+            property: `og:title`,
+            content: title,
+          },
+          {
+            property: `og:description`,
+            content: metaDescription,
+          },
+          {
+            property: `og:type`,
+            content: `website`,
+          },
+          {
+            property: `og:image`,
+            content: featuredImg || logoUrl,
+          },
+          {
+            name: `twitter:image`,
+            content: featuredImg || logoUrl,
+          },
+          {
+            name: `twitter:card`,
+            content: `summary_large_image`,
+          },
+          {
+            name: `twitter:creator`,
+            content: `@${twitter}`,
+          },
+          {
+            name: `twitter:title`,
+            content: title,
+          },
+          {
+            name: `twitter:description`,
+            content: metaDescription,
+          },
+        ].concat(meta)}
+      />
     </>
   )
 }

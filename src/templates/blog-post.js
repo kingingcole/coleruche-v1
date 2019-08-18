@@ -7,23 +7,23 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 
-import { Disqus, CommentCount } from 'gatsby-plugin-disqus'  //for disqus
-
+import { Disqus, CommentCount } from "gatsby-plugin-disqus" //for disqus
 
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
-    const {text} = this.props.data.markdownRemark.fields.readingTime // from  gatsby-remark-reading-time.
+    const { text } = this.props.data.markdownRemark.fields.readingTime // from  gatsby-remark-reading-time.
     const siteTitle = this.props.data.site.siteMetadata.title
     const url = this.props.data.site.siteMetadata.siteUrl
     const { previous, next } = this.props.pageContext
     const featuredImg = post.frontmatter.featuredImage.childImageSharp.sizes
     const BASE_URL = `https://coleruche.com`
-    const featuredImgUrl = BASE_URL + post.frontmatter.featuredImage.childImageSharp.sizes.src
+    const featuredImgUrl =
+      BASE_URL + post.frontmatter.featuredImage.childImageSharp.sizes.src
 
     //for disqus
     let disqusConfig = {
-      url: `${url+this.props.location.pathname}`,
+      url: `${url + this.props.location.pathname}`,
       identifier: post.id,
       title: siteTitle,
     }
@@ -54,16 +54,35 @@ class BlogPostTemplate extends React.Component {
           {post.frontmatter.date}
           <span className="d-block">
             {text}
-            <span style={{marginLeft: '10px', color:'gray'}}><CommentCount config={disqusConfig} placeholder={'...'} /></span>
+            <span style={{ marginLeft: "10px", color: "gray" }}>
+              <CommentCount config={disqusConfig} placeholder={"..."} />
+            </span>
           </span>
-           </p>
-        <Img alt={post.frontmatter.altText} sizes={featuredImg}/>
-        <small style={{fontSize: '0.8rem', display: 'block', textAlign: 'center', marginTop: '3px'}}>{post.frontmatter.altText}</small>
-        <br/><br/>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} style={{maxWidth: '700px', margin: 'auto', textAlign: 'justify', lineHeight: '1.5em', fontSize: '1rem'}}/>
+        </p>
+        <Img alt={post.frontmatter.altText} sizes={featuredImg} />
+        <small
+          style={{
+            fontSize: "0.8rem",
+            display: "block",
+            textAlign: "center",
+            marginTop: "3px",
+          }}
+        >
+          {post.frontmatter.altText}
+        </small>
+        <br />
+        <br />
+        <div
+          dangerouslySetInnerHTML={{ __html: post.html }}
+          style={{
+            maxWidth: "700px",
+            margin: "auto",
+            textAlign: "justify",
+            lineHeight: "1.5em",
+            fontSize: "1rem",
+          }}
+        />
         <Disqus config={disqusConfig} />
-
-
 
         <ul
           style={{
@@ -114,17 +133,17 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         description
         altText
-        featuredImage{
-         childImageSharp{
-          sizes(maxWidth: 1000, maxHeight: 600){
-            ...GatsbyImageSharpSizes
+        featuredImage {
+          childImageSharp {
+            sizes(maxWidth: 1000, maxHeight: 600) {
+              ...GatsbyImageSharpSizes
+            }
           }
-         }
         }
       }
-      fields{
+      fields {
         slug
-        readingTime{
+        readingTime {
           text
         }
       }
