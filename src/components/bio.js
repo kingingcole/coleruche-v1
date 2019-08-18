@@ -8,8 +8,8 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
-import FeatherIcon from 'feather-icons-react';
-import {Link} from 'gatsby'
+import FeatherIcon from "feather-icons-react"
+import { Link } from "gatsby"
 
 import { rhythm } from "../utils/typography"
 
@@ -38,7 +38,8 @@ const Bio = () => {
 
   const { author, social } = data.site.siteMetadata
   return (
-    <div className='bio'
+    <div
+      className="bio"
       style={{
         display: `flex`,
         marginBottom: rhythm(2.5),
@@ -57,18 +58,19 @@ const Bio = () => {
           borderRadius: `50%`,
         }}
       />
-      <p style={{maxWidth: '600px'}}>
-        Written and maintained by <Link to='/me'>{author}</Link> who lives in Enugu, Nigeria trying to build useful things.
+      <p style={{ maxWidth: "600px" }}>
+        Written and maintained by <Link to="/me">{author}</Link> who lives in
+        Enugu, Nigeria trying to build useful things.
         {` `}
-        <div className='bio-links'>
+        <div className="bio-links">
           <a href={`https://twitter.com/${social.twitter}`}>
-            <FeatherIcon icon="twitter" size='17'/>
+            <FeatherIcon icon="twitter" size="17" />
           </a>
           <a href={`https://github.com/${social.github}`}>
-            <FeatherIcon icon="github" size='17'/>
+            <FeatherIcon icon="github" size="17" />
           </a>
           <a href={`mailto:${social.email}`}>
-            <FeatherIcon icon="mail" size='17'/>
+            <FeatherIcon icon="mail" size="17" />
           </a>
         </div>
       </p>

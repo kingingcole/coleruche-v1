@@ -1,29 +1,28 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
 
-
 class Navbar extends Component {
   render() {
     return (
       <nav>
-        <div className='container text-center'>
-          <ul className='row'>
-            <li className='col-4 text-center my-auto'>
+        <div className="container text-center">
+          <ul className="row">
+            <li className="col-4 text-center my-auto">
               <Link
-                activeClassName='active'
+                activeClassName="active"
                 style={{
                   boxShadow: `none`,
                   textDecoration: `none`,
                   color: `inherit`,
                 }}
-                to='/'
+                to="/"
               >
                 Blog
               </Link>
             </li>
-            <li className='col-4 text-center my-auto'>
+            <li className="col-4 text-center my-auto">
               <Link
-                activeClassName='active'
+                activeClassName="active"
                 style={{
                   boxShadow: `none`,
                   textDecoration: `none`,
@@ -34,9 +33,9 @@ class Navbar extends Component {
                 Me
               </Link>
             </li>
-            <li className='col-4 text-center my-auto'>
+            <li className="col-4 text-center my-auto">
               <Link
-                activeClassName='active'
+                activeClassName="active"
                 style={{
                   boxShadow: `none`,
                   textDecoration: `none`,

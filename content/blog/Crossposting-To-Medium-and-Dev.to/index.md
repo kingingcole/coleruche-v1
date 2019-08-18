@@ -4,7 +4,7 @@ date: "2019-08-15T22:40:32.169Z"
 featuredImage: "./featured-image.jpg"
 type: post
 description: An easy method to seamlessly cross-post your articles from your blog to Medium and Dev.to
-published: true
+published: false
 altText: open locker in the wall filled with books
 ---
 
@@ -14,4 +14,6 @@ It is not a new thing to see programmers sharing their ideas and what they have 
 
 On the other hand, [DEV](https://dev.to) is a platform specifically built for developers to share ideas and grow. 
 
-With these two _powerful_ platforms, it's highly advised and 
+With these two _powerful_ platforms, it's highly advised and recommended that artcles should be cross-posted to at least these two platforms. With that comes the issue of syncing articles across the two platforms and your own personal blog. The "obvious' solution to this is copy-pasting from one source to the other. This has so many disadvantages - strenuous, time-wasting, error-prone, e.t.c.
+
+The ideal thing to do here is to find a way to sync and automatically update contents when one
