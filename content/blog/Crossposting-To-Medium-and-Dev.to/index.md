@@ -46,3 +46,17 @@ When both fields have been selected, two new `select` input types _pop up_ from 
 If so, click on the ***Use Zap*** button.
 
 ***Editing the Zap***
+
+By now you should be in an editor to set up your zap.
+We will start with the *Customize Item* section. In the 'Feed URL' field, paste the RSS URL of your blog which you had initially copied. If at this stage you've lost it, it looks something like `<your-domain>.com/rss.xml` - don't leave out the `.xml` extension!
+Unless you made any special configuration in your RSS settings, leave out the `Username` and `Password` fields. Leave the already selected and recommended option in 'What Triggers a New Feed Item?' as is and click the ***Continue*** button. You will be asked to test your connection - do that. If the test fails, but you're _super_ sure the feed URL is correct, skip the test and move on. Mine failed. 
+
+You should now be in the Medium configuration section, and should have this below:
+![medium settings](pic3.jgp)
+If that's the case, click on *Continue* and next, you'll be asked to link your Medium account, or if already linked, select an account. After that, continue. The next section should be the ***Customize Story***. 
+<br/>
+_For the following input fields, please use the little right gray buttons to bring out a drop-down from where you should select options from._
+<br/>
+- For *title*, select ***Title*** under 'New Item In Feed'.
+- For *format*, select ***HTML***.
+- 
