@@ -4,7 +4,7 @@ date: "2019-08-15T22:40:32.169Z"
 featuredImage: "./featured-image.jpg"
 type: post
 description: An easy method to seamlessly cross-post your articles from your blog to Medium and Dev.to
-published: false
+published: true
 altText: open locker in the wall filled with books
 ---
 
