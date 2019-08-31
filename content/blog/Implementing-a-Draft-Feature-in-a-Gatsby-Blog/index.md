@@ -90,6 +90,7 @@ exports.createPages = async ({ graphql, actions }) => {
     })
   })
 }
+```
 
 This change ensures that Gatsby only filters out posts we set it's published variable to `true` in it's fromtmatter.
 Please note to add this rule to wherever else you are doing some tasks with your posts, eg when in your `src/pages/index.js` file, where there's a similar query for listing out your articles, and also if you're creating your RSS feed with `gatsby-plugin-feed`.
