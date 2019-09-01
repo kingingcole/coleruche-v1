@@ -69,7 +69,7 @@ exports.createPages = async ({ graphql, actions }) => {
 ```
 As you can rightly guess, the pages are created from data gotten with the `allMarkdownRemark` query. This is where we can work our magic.
 
-Right next to the `sort` command, we can add our own `filter` rule to get only posts we mark as published. To do this, you should add a variable `published` in your articles' frontmatter, which is set to `true` or `false` depending on the status of the article. For example, to set an article as a draft (i.e unpublshed) add this to the file's front matter: `published: true`.
+Right next to the `sort` command, we can add our own `filter` rule to get only posts we mark as published. To do this, you should add a variable `published` in your articles' frontmatter, which is set to `true` or `false` depending on the status of the article. For example, to set an article as a draft (i.e unpublshed) add this to the file's front matter: `published: false`.
 
 Now that we have a way of marking posts as ready to be published or not, we get back to the GraphQL query and change it like so:
 ```js
