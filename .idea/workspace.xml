@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5e136884-04da-434f-a9f7-2437ce78176c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/works/todo-hooks/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/works/todo-hooks/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,11 +13,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/works/devsng/index.md">
+        <entry file="file://$PROJECT_DIR$/content/blog/Adding-Bootstrap-CDN-in-Gatsby/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="34">
-                <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+              <first_editor>
+                <caret selection-end-line="8" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -28,11 +25,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/content/works/todo-hooks/index.md">
+        <entry file="file://$PROJECT_DIR$/content/blog/Creating-an-Ecommerce-Store-With-Gatsby-and-Shopify/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="51">
-                <caret line="3" column="152" selection-start-line="3" selection-start-column="152" selection-end-line="3" selection-end-column="152" />
+                <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
               </first_editor>
               <second_editor />
             </state>
@@ -89,8 +86,9 @@
         <option value="$PROJECT_DIR$/src/templates/blog-post.js" />
         <option value="$PROJECT_DIR$/gatsby-node.js" />
         <option value="$PROJECT_DIR$/src/components/bio.js" />
-        <option value="$PROJECT_DIR$/content/works/devsng/index.md" />
         <option value="$PROJECT_DIR$/content/works/todo-hooks/index.md" />
+        <option value="$PROJECT_DIR$/content/works/devsng/index.md" />
+        <option value="$PROJECT_DIR$/content/blog/Creating-an-Ecommerce-Store-With-Gatsby-and-Shopify/index.md" />
       </list>
     </option>
   </component>
@@ -124,14 +122,21 @@
               <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="myblog" type="462c0819:PsiDirectoryNode" />
               <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="works" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="myblog" type="462c0819:PsiDirectoryNode" />
               <item name="content" type="462c0819:PsiDirectoryNode" />
-              <item name="works" type="462c0819:PsiDirectoryNode" />
-              <item name="todo-hooks" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="Adding-Bootstrap-CDN-in-Gatsby" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="Creating-an-Ecommerce-Store-With-Gatsby-and-Shopify" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -149,6 +154,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Cole\Desktop\gatsby\myblog\content\blog\Creating-an-Ecommerce-Store-With-Gatsby-and-Shopify" />
       <recent name="C:\Users\Emeruche Cole\Desktop\gatsby\myblog\content\works\blermo" />
       <recent name="C:\Users\Emeruche Cole\Desktop\gatsby\myblog\content\blog\JavaScript Console API and Methods" />
     </key>
@@ -208,12 +214,14 @@
       <workItem from="1569359802600" duration="573000" />
       <workItem from="1569616628231" duration="2981000" />
       <workItem from="1572383101943" duration="597000" />
-      <workItem from="1573158668285" duration="1202000" />
+      <workItem from="1573158668285" duration="1464000" />
+      <workItem from="1573160813206" duration="195000" />
+      <workItem from="1573162279320" duration="1390000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107418000" />
+    <option name="totallyTimeSpent" value="109265000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -233,7 +241,7 @@
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32872504" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.41474655" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.41474655" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -250,9 +258,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/icons/icon-512x512.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/icons/icon-48x48.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -386,16 +391,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="216">
             <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/blog/Adding-Bootstrap-CDN-in-Gatsby/index.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="3" selection-start-column="3" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
@@ -554,8 +549,8 @@
     <entry file="file://$PROJECT_DIR$/content/works/devsng/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="34">
-            <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <first_editor relative-caret-position="119">
+            <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           </first_editor>
           <second_editor />
         </state>
@@ -564,8 +559,28 @@
     <entry file="file://$PROJECT_DIR$/content/works/todo-hooks/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
+          <first_editor relative-caret-position="68">
+            <caret line="4" selection-start-line="3" selection-start-column="13" selection-end-line="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/blog/Adding-Bootstrap-CDN-in-Gatsby/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret selection-end-line="8" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/blog/Creating-an-Ecommerce-Store-With-Gatsby-and-Shopify/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
           <first_editor relative-caret-position="51">
-            <caret line="3" column="152" selection-start-line="3" selection-start-column="152" selection-end-line="3" selection-end-column="152" />
+            <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
           </first_editor>
           <second_editor />
         </state>
