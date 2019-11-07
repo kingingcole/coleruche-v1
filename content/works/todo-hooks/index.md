@@ -7,5 +7,5 @@ published: true
 tech: React, styled-components, Netlify, Twitter Bootstrap
 link: https://todo-hook.netlify.com
 repo: todo-hooks
-position: 1
+position: 2
 ---

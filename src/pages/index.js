@@ -2,11 +2,10 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import Bio from "../components/bio"
-import Img from "gatsby-image"
 import Layout from "../components/layout"
 import PostCard from "../components/postCard"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
+
 
 class BlogIndex extends React.Component {
   render() {
