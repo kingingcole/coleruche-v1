@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5e136884-04da-434f-a9f7-2437ce78176c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/Building-an-Ecommerce-Store-With-Gatsby-and-Shopify/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/blog/Building-an-Ecommerce-Store-With-Gatsby-and-Shopify/index.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,11 +26,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/content/blog/Creating-an-Ecommerce-Store-With-Gatsby-and-Shopify/index.md">
+        <entry file="file://$PROJECT_DIR$/content/blog/Building-an-Ecommerce-Store-With-Gatsby-and-Shopify/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="51">
-                <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+              <first_editor relative-caret-position="567">
+                <caret line="48" column="309" selection-start-line="48" selection-start-column="309" selection-end-line="48" selection-end-column="309" />
               </first_editor>
               <second_editor />
             </state>
@@ -89,6 +90,7 @@
         <option value="$PROJECT_DIR$/content/works/todo-hooks/index.md" />
         <option value="$PROJECT_DIR$/content/works/devsng/index.md" />
         <option value="$PROJECT_DIR$/content/blog/Creating-an-Ecommerce-Store-With-Gatsby-and-Shopify/index.md" />
+        <option value="$PROJECT_DIR$/content/blog/Building-an-Ecommerce-Store-With-Gatsby-and-Shopify/index.md" />
       </list>
     </option>
   </component>
@@ -136,7 +138,7 @@
               <item name="myblog" type="462c0819:PsiDirectoryNode" />
               <item name="content" type="462c0819:PsiDirectoryNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="Creating-an-Ecommerce-Store-With-Gatsby-and-Shopify" type="462c0819:PsiDirectoryNode" />
+              <item name="Building-an-Ecommerce-Store-With-Gatsby-and-Shopify" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -216,18 +218,19 @@
       <workItem from="1572383101943" duration="597000" />
       <workItem from="1573158668285" duration="1464000" />
       <workItem from="1573160813206" duration="195000" />
-      <workItem from="1573162279320" duration="1390000" />
+      <workItem from="1573162279320" duration="5858000" />
+      <workItem from="1573499205325" duration="5031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109265000" />
+    <option name="totallyTimeSpent" value="118764000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18898809" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18898809" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -241,7 +244,7 @@
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32872504" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.41474655" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.31182796" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -258,9 +261,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/icons/icon-48x48.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/manifest.webmanifest">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -566,6 +566,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/content/blog/Building-an-Ecommerce-Store-With-Gatsby-and-Shopify/featured-image.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/content/blog/Adding-Bootstrap-CDN-in-Gatsby/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -576,11 +579,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/blog/Creating-an-Ecommerce-Store-With-Gatsby-and-Shopify/index.md">
+    <entry file="file://$PROJECT_DIR$/content/blog/Building-an-Ecommerce-Store-With-Gatsby-and-Shopify/index.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="51">
-            <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <first_editor relative-caret-position="567">
+            <caret line="48" column="309" selection-start-line="48" selection-start-column="309" selection-end-line="48" selection-end-column="309" />
           </first_editor>
           <second_editor />
         </state>
