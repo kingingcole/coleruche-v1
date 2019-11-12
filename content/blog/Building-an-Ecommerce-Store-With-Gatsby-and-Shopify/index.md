@@ -1,9 +1,9 @@
 ---
 title: Building an E-commerce store with Gatsby and Shopify
-date: "2019-11-06T22:40:32.169Z"
+date: "2019-11-11T22:40:32.169Z"
 featuredImage: "./featured-image.jpg"
 type: post
-description: This tutorial covers an in-depth guide on how to set up a static site PWA ecommerce site with Gatsby and Shopify
+description: This tutorial covers an in-depth guide on how to set up a static PWA ecommerce site with Gatsby and Shopify with automatic rebuild when products are updated, added or deleted.
 published: true
 altText: open shop sign
 ---
