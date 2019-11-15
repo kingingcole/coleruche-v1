@@ -48,4 +48,4 @@ And that is it, as you add/update/delete products, Netlify rebuilds the site in 
 
 _Extra stuff:_ Seeing you do not need the Shopify online store sales channel (as the Gatsby app serves the purpose), you can safely remove it as a sales channel. This makes you (or your client) avoid the $29 monthly charges on the Basic Shopify plan and instead, subscribe to the $9 monthly Shopify Lite plan.
 
-PS: If you need someone to set up a store for you, you can [hire me](mailto:emeruchecole9@gmail.coom). 
+PS: If you need someone to set up a store for you, you can [hire me](mailto:emeruchecole9@gmail.com). 
