@@ -1,6 +1,6 @@
 ---
 title: Building an E-commerce store with Gatsby and Shopify
-date: "2019-11-11T22:40:32.169Z"
+date: "2019-11-14T22:40:32.169Z"
 featuredImage: "./featured-image.jpg"
 type: post
 description: This tutorial covers an in-depth guide on how to set up a static PWA ecommerce site with Gatsby and Shopify with automatic rebuild when products are updated, added or deleted.
@@ -8,13 +8,13 @@ published: true
 altText: open shop sign
 ---
 
-Have you ever visited a site to shop for your favourite item and got so frustrated over the many redirects and loadings - and the unnecessary waste of time that comes with it. Or have you been faced with a challenge of building out a online store but could not just find a way to get started - and done - with it? This tutorial is just for tou.
+Have you ever visited a site to shop for your favourite item and got so frustrated over the many redirects and loadings - and the unnecessary waste of time that comes with it. Or have you been faced with a challenge of building out a online store but could not just find a way to get started - and done - with it? This tutorial is just for you.
 
-With the relative ease that comes with using Gatsby, and the amazing _love_ that comes from its community ever since I started using it, I decided to find out what other [amazing things that comes with it](https://www.storyblok.com/tp/3-reasons-why-you-should-consider-gatsby-js-for-your-next-project). It then hit me, _"could Gatsby be used to build out an online store as a static site?"._  At first, it seemed most unlikely, as I thought of the highly dynamic functionality that comes with e-commerce stores and could not possibly imagine how Gatsby could generate static pages for them.<br/> But then, hey, we live in a time where there is Gatsby and [Netlify](https://netlify.com). _Anything_ can be done on the web these days.
+With the relative ease that comes with using Gatsby, and the amazing _love_ that comes from its community ever since I started using it, I decided to find out what other [amazing things that come. with it](https://www.storyblok.com/tp/3-reasons-why-you-should-consider-gatsby-js-for-your-next-project). It then hit me, _"could Gatsby be used to build out an online store as a static site?"._  At first, it seemed most unlikely, as I thought of the highly dynamic functionality that comes with e-commerce stores and could not possibly imagine how Gatsby could generate static pages for them.<br/> But then, hey, we live in a time where there is Gatsby and [Netlify](https://netlify.com). _Anything_ can be done on the web these days.
 
 I then started to do a little digging to see what I could come up with.  I saw a few articles on it, but they were mostly using not-so-popular technology or providers. I needed something quick and fast. Something that did not require me reading a big ass documentation in order to get things started.
 
-I also came across this [article](https://www.gatsbyjs.org/tutorial/ecommerce-tutorial/) from the official Gatsby docs, but i still felt it was a bit limiting as it was an integration with Stripe, which is not totally supported in all countries, at least not Nigeria. I needed a solution that supported many payment providers and methods and I could only think of one. Shopify.
+I also came across this [article from the Gatsby docs](https://www.gatsbyjs.org/tutorial/ecommerce-tutorial/), but I still felt it was a bit limiting as it was an integration with Stripe, which is not totally supported in all countries, at least not Nigeria. I needed a solution that supported many payment providers and methods and I could only think of one. Shopify.
 
 A few _digs_ later I discovered an awesome Gatsby starter for e-commerce stores powered by Gatsby and Shopify. The joy! The starter already hast taken out the stressful parts of it all. No need to reinvent the wheel here and all it needs is a tweak here and there and some redesign to suit your taste. You can check out the starter [here on Gatsby](https://www.gatsbyjs.org/docs/building-an-ecommerce-site-with-shopify/) or directy get to the [source code](https://github.com/AlexanderProd/gatsby-shopify-starter) on Github. 
 
@@ -48,4 +48,4 @@ And that is it, as you add/update/delete products, Netlify rebuilds the site in 
 
 _Extra stuff:_ Seeing you do not need the Shopify online store sales channel (as the Gatsby app serves the purpose), you can safely remove it as a sales channel. This makes you (or your client) avoid the $29 monthly charges on the Basic Shopify plan and instead, subscribe to the $9 monthly Shopify Lite plan.
 
-PS: If you would need someone to rather set up the store for you, please [hit me up](mailto:emeruchecole9@gmail.coom). 
+PS: If you need someone to set up a store for you, you can [hire me](mailto:emeruchecole9@gmail.coom). 
