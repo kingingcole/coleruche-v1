@@ -32,7 +32,7 @@ class Works extends React.Component {
         >
           {works.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug;
-            const { description, tech, link, repo } = node.frontmatter;
+            const { tech, link, repo } = node.frontmatter;
             const { html } = node;
             console.log(node.html);
             return (
@@ -76,7 +76,6 @@ export const worksQuery = graphql`
             slug
           }
           frontmatter {
-            description
             tech
             title
             tech
