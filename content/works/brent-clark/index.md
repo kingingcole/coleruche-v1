@@ -6,7 +6,6 @@ published: true
 tech: React, Gatsby, Tailwind CSS, Twitter Bootstrap, Netlify
 link: /
 repo: brent-clark
-position: 1
 ---
 
 A personal portfolio website and blog built with Gatsby and Markdown for [Brent Clark](https://twitter.com/brent_m_clark).

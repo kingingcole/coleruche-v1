@@ -66,7 +66,7 @@ export default Works
 export const worksQuery = graphql`
   query {
     allMarkdownRemark(
-      sort: { fields: frontmatter___position, order: ASC }
+      sort: { fields: frontmatter___date, order: DESC }
       filter: { frontmatter: { published: { eq: true }, type: { eq: "work" } } }
     ) {
       edges {
