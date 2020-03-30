@@ -9,3 +9,5 @@ link: https://todo-hook.netlify.com
 repo: todo-hooks
 position: 2
 ---
+
+A todo app I built when learning React hooks and styled-components to understand how they work better. All components are function components and styling done with styled-components

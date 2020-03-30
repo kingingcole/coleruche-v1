@@ -9,3 +9,5 @@ link: https://jobhuntr-develop.herokuapp.com
 repo: jobhuntr
 position: 2
 ---
+
+A React MVP made for JobHuntr. Service has been moved from this 'version' to the live Vue-implementation at https://jobhuntr.io. Backend was designed with PHP.

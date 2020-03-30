@@ -31,15 +31,16 @@ class Works extends React.Component {
           style={{ maxWidth: "900px", padding: "10px" }}
         >
           {works.map(({ node }) => {
-            // console.log(node)
-            const title = node.frontmatter.title || node.fields.slug
-            const { description, tech, link, repo } = node.frontmatter
+            const title = node.frontmatter.title || node.fields.slug;
+            const { description, tech, link, repo } = node.frontmatter;
+            const { html } = node;
+            console.log(node.html);
             return (
               <WorkCard
                 repo={repo}
                 github={github}
                 title={title}
-                description={description}
+                description={html}
                 tech={tech}
                 link={link}
               />
@@ -82,6 +83,7 @@ export const worksQuery = graphql`
             link
             repo
           }
+          html
         }
       }
     }

@@ -7,7 +7,7 @@ const WorkCard = ({ title, description, tech, link, github, repo }) => {
     <div className="col-sm-12 col-md-6 px-2">
       <div className="work-card">
         <h5 style={{ fontWeight: 600 }}>{title}</h5>
-        <p style={{ fontSize: "1em", minHeight: "100px" }}>{description}</p>
+        <p style={{ fontSize: "1em", minHeight: "100px" }} dangerouslySetInnerHTML={{ __html: description }}/>
         <small style={{ display: "inline-block", height: "40px" }}>
           {tech}
         </small>

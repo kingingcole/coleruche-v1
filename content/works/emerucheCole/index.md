@@ -9,3 +9,5 @@ link: https://emeruchecole.herokuapp.com
 repo: emeruchecole
 position: 4
 ---
+
+The first iteration of my online portfolio. Was built predominantly with Twitter Bootstrap. Used Django's templating engine. Felt it didn't reflect most of my recent skills - hence the remake.

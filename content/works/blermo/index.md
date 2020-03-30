@@ -9,3 +9,5 @@ link: https://blermo.herokuapp.com
 repo: blermo
 position: 5
 ---
+
+A concept for a web app for medical students in Nigeria to connect, share ideas, thoughts and suggestions. Was made to get a good understanding of Django's templating engine.

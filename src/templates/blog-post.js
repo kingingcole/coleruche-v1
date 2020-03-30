@@ -11,7 +11,7 @@ import { Disqus, CommentCount } from "gatsby-plugin-disqus" //for disqus
 
 class BlogPostTemplate extends React.Component {
   render() {
-    const post = this.props.data.markdownRemark
+        const post = this.props.data.markdownRemark
     const { text } = this.props.data.markdownRemark.fields.readingTime // from  gatsby-remark-reading-time.
     const siteTitle = this.props.data.site.siteMetadata.title
     const url = this.props.data.site.siteMetadata.siteUrl
