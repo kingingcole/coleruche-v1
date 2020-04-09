@@ -4,7 +4,7 @@ date: "2020-03-30T10:40:32.169Z"
 type: work
 published: true
 tech: React, Gatsby, Tailwind CSS, Twitter Bootstrap, Netlify
-link: /
+link: https://brentmclark.dev/
 repo: brent-clark
 ---
 
