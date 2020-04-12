@@ -60,7 +60,7 @@ export const Example = () => {
 ```
 The above returns `<p>An error occured while fetching data</p>` because 0 is a _falsy_ value hence the OR operator returns the right hand side operand, in this case being 'An error occured while fetching data' which is unintended.
 The desired result could be achieved by using the nullish coalescing operator as thus:
-```jsx
+```js
 import React from 'react';
 const profile = {
     numberOfPosts: 0,
