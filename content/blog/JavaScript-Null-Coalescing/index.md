@@ -1,9 +1,9 @@
 ---
 title: Nullish Coalescing in JavaScript
-date: "2020-04-12T12:47:32.169Z"
+date: "2020-04-14T05:47:32.169Z"
 featuredImage: "./featured-image.jpg"
 type: post
-description: We will take a look into how to set up a Gatsby JS site to use Twitter Bootstrap's CDN
+description: Taking a dive into the ES2020 Nullish Coalescing.
 published: true
 altText: bird's eye view of concrete crossroads
 ---
