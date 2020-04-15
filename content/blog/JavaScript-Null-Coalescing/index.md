@@ -3,7 +3,7 @@ title: Nullish Coalescing in JavaScript
 date: "2020-04-14T05:47:32.169Z"
 featuredImage: "./featured-image.jpg"
 type: post
-description: Taking a dive into the ES2020 Nullish Coalescing.
+description: Taking a dive into the ES2020 Nullish Coalescing operator.
 published: true
 altText: bird's eye view of concrete crossroads
 ---
