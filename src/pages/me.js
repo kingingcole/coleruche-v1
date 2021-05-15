@@ -36,30 +36,19 @@ const Me = () => {
             Hey there, the name's <b>Emeruche "Cole" Ikenna</b>.
           </p>
           <p>
-            A front-end web and mobile developer from Nigeria. <br /> During the
-            few years I have been coding, I have picked up relevant languages,
-            skills and frameworks - HTML, CSS, React JS, React Native, vanilla
-            JavaScript, Python (Django and DRF) and some of the cool
-            collaborative tools like git and Slack. I use Heroku and Netlify as
-            choice of deployments.
+            A front-end web developer from Nigeria with years of professional experience working with cool tech including ReactJS, JavaScript, HTML & CSS and TypeScript.
+            I have also worked with Java, Django and Gatsby - which powers this site.
+            <br />
           </p>
-          <p>
-            I try to build cool web apps to keep my skillsets and{" "}
-            <a target="_blank" href="https://github.com/kingingcole">
-              github
-            </a>{" "}
-            as "updated" as possible. I consider the internet the greatest
-            learning environment, and solving challenges the best teacher.
+          <p>I currently work remotely as a Software Engineer II at <a href="https://crossover.com" target="_blank">Crossover</a> where I solve real-world issues with some of the most brilliant developers as my teammates.
+            Previously, I was hired part-time at <a href="https://beed.ng" target="_blank">Beed.ng</a> where I was part of the team that built to the frontend of the web app. <br/> You can find more of my professional experience on <a
+              href="https://linkedin.com/in/emeruche">LinkedIn.</a>
           </p>
+
+          <p>When I'm not coding, you can find me scrolling through Twitter, reading a book or playing some of my favourite video games on PlayStation 5 - you know, stuff I can do <em>indoors.</em></p>
+
           <p>
-            When I'm not coding, I am either reading medical books,{" "}
-            <a target="_blank" href="https://twitter.com/cole_ruche">
-              tweeting
-            </a>
-            , or playing video games. I do not joke with naps and breakfast.
-          </p>
-          <p>
-            If you wish to reach through a pretty form, I am sorry to disappoint
+            If you wish to reach me through a pretty form, I am sorry to disappoint
             you as there is none.{" "}
             <a target="_top" href="mailto:emeruchecole9@gmail.com">
               Just shoot me a mail
