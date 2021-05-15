@@ -12,6 +12,7 @@ const Footer = () => {
             twitter
             github
             email
+            linkedin
           }
         }
       }
@@ -19,26 +20,31 @@ const Footer = () => {
   `)
 
   const { social } = data.site.siteMetadata
-  // console.log(social)
+
   return (
     <div>
       <div className="row text-center">
-        <span className="col-4">
-          <a href={`https://twitter.com/${social.twitter}`}>
+        <span className="col-3">
+          <a target='_blank' href={`https://twitter.com/${social.twitter}`}>
             <FeatherIcon icon="twitter" size="20" />
           </a>
         </span>
-        <span className="col-4">
-          <a href={`https://github.com/${social.github}`}>
+        <span className="col-3">
+          <a target='_blank' href={`https://github.com/${social.github}`}>
             <FeatherIcon icon="github" size="20" />
           </a>
         </span>
-        <span className="col-4">
-          <a href={`mailto:${social.email}`}>
+        <span className="col-3">
+          <a target='_blank' href={`mailto:${social.email}`}>
             <FeatherIcon icon="mail" size="20" />
           </a>
         </span>
-        <p className="col-12 text-center">© {new Date().getFullYear()}</p>
+        <span className="col-3">
+          <a target='_blank' href={`https://linkedin.com/in/${social.linkedin}`}>
+            <FeatherIcon icon="linkedin" size="20" />
+          </a>
+        </span>
+        <p className="col-12 text-center my-2">© {new Date().getFullYear()}</p>
       </div>
     </div>
   )

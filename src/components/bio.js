@@ -30,6 +30,7 @@ const Bio = () => {
             twitter
             github
             email
+            linkedin
           }
         }
       }
@@ -63,14 +64,17 @@ const Bio = () => {
         Enugu, Nigeria trying to build useful things.
         {` `}
         <div className="bio-links">
-          <a href={`https://twitter.com/${social.twitter}`}>
+          <a target="_blank" href={`https://twitter.com/${social.twitter}`}>
             <FeatherIcon icon="twitter" size="17" />
           </a>
-          <a href={`https://github.com/${social.github}`}>
+          <a target="_blank" href={`https://github.com/${social.github}`}>
             <FeatherIcon icon="github" size="17" />
           </a>
-          <a href={`mailto:${social.email}`}>
+          <a target="_blank" href={`mailto:${social.email}`}>
             <FeatherIcon icon="mail" size="17" />
+          </a>
+          <a target="_blank" href={`https://linkedin.com/in/${social.linkedin}`}>
+            <FeatherIcon icon="linkedin" size="17" />
           </a>
         </div>
       </p>
