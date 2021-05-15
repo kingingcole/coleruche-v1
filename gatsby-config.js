@@ -1,21 +1,25 @@
 module.exports = {
   siteMetadata: {
-    title: `Cole Emeruche`,
-    author: `Cole Emeruche`,
+    title: `Emeruche Ikenna`,
+    author: `Emeruche Ikenna`,
     description: `Blog post started by Emeruche "Cole" Ikenna to share about stuff I learn about programming and everything related to it.`,
     siteUrl: `https://coleruche.com/`,
     keywords: [
       "Emeruche",
       "Cole",
       "Ikenna",
-      "Ruche",
+      "Frontend web developer",
+      "React developer Nigeria",
       "React developer",
       "Front-end Engineer",
+      "Frontend engineer",
+      "Top frontend web developers in Nigeria",
     ],
     social: {
       twitter: `cole_ruche`,
       github: `kingingcole`,
       email: `emeruchecole@gmail.com`,
+      linkedin: `emeruche`,
     },
   },
   plugins: [
