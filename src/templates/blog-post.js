@@ -1,17 +1,16 @@
-import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import Img from "gatsby-image"
+import React from "react"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 
-import { Disqus, CommentCount } from "gatsby-plugin-disqus" //for disqus
+import { CommentCount, Disqus } from "gatsby-plugin-disqus"; //for disqus
 
 class BlogPostTemplate extends React.Component {
   render() {
-        const post = this.props.data.markdownRemark
+    const post = this.props.data.markdownRemark
     const { text } = this.props.data.markdownRemark.fields.readingTime // from  gatsby-remark-reading-time.
     const siteTitle = this.props.data.site.siteMetadata.title
     const url = this.props.data.site.siteMetadata.siteUrl
