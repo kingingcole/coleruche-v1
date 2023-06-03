@@ -116,8 +116,6 @@ blockquote {
     padding: 30px 20px;
     border-radius: 10px;
     transition: background-color 0.4s;
-    cursor: pointer;
-    min-height: 300px !important;
 }
 
 .work-card:hover{
@@ -233,3 +231,8 @@ footer p {
 
 }
 
+@media screen and (max-width: 770px) {
+    .work-card{
+        min-height: auto !important;
+    }
+}

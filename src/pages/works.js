@@ -1,5 +1,5 @@
-import React from "react"
 import { graphql } from "gatsby"
+import React from "react"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -21,9 +21,9 @@ class Works extends React.Component {
           description="A view of projects and code built by Emeruche Cole"
         />
         <Bio/>
-        <div className="row text-center mb-5">
+        <div className="row text-center mb-2">
           <div className="col-12">
-            <h4>Here are a few of my projects.</h4>
+            <h5>Here are a few of my projects.</h5>
           </div>
         </div>
         <div
