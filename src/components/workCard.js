@@ -2,7 +2,9 @@ import FeatherIcon from "feather-icons-react"
 import React from "react"
 
 const WorkCard = ({ title, description, tech, link, github, repo }) => {
-  let githubRepo = `https://github.com/${github}/${repo}`
+  let githubRepo = repo ? `https://github.com/${github}/${repo}` : ''
+
+  console.log({repo, link})
   return (
     <div className="col-sm-12 col-md-6 px-2">
       <div className="work-card">
@@ -12,7 +14,7 @@ const WorkCard = ({ title, description, tech, link, github, repo }) => {
           {tech}
         </small>
         <div style={{ marginTop: "10px" }}>
-          {github != null && (
+          {githubRepo && (
             <span className="mr-2">
               <a target="_blank" href={githubRepo}>
                 <FeatherIcon icon="github" size="17" />
@@ -20,7 +22,7 @@ const WorkCard = ({ title, description, tech, link, github, repo }) => {
             </span>
           )}
           {
-            link != null && (
+            link && (
               <span className="mr-2">
                 <a target="_blank" href={link}>
                   <FeatherIcon icon="globe" size="17" />
