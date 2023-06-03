@@ -1,5 +1,5 @@
-import React from "react"
 import FeatherIcon from "feather-icons-react"
+import React from "react"
 
 const WorkCard = ({ title, description, tech, link, github, repo }) => {
   let githubRepo = `https://github.com/${github}/${repo}`
@@ -12,16 +12,22 @@ const WorkCard = ({ title, description, tech, link, github, repo }) => {
           {tech}
         </small>
         <div style={{ marginTop: "10px" }}>
-          <span className="mr-2">
-            <a target="_blank" href={githubRepo}>
-              <FeatherIcon icon="github" size="17" />
-            </a>
-          </span>
-          <span className="mr-2">
-            <a target="_blank" href={link}>
-              <FeatherIcon icon="globe" size="17" />
-            </a>
-          </span>
+          {github != null && (
+            <span className="mr-2">
+              <a target="_blank" href={githubRepo}>
+                <FeatherIcon icon="github" size="17" />
+              </a>
+            </span>
+          )}
+          {
+            link != null && (
+              <span className="mr-2">
+                <a target="_blank" href={link}>
+                  <FeatherIcon icon="globe" size="17" />
+                </a>
+              </span>
+            )
+          }
         </div>
       </div>
     </div>
