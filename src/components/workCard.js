@@ -4,12 +4,11 @@ import React from "react"
 const WorkCard = ({ title, description, tech, link, github, repo }) => {
   let githubRepo = repo ? `https://github.com/${github}/${repo}` : ''
 
-  console.log({repo, link})
   return (
     <div className="col-sm-12 col-md-6 px-2">
       <div className="work-card">
-        <h5 style={{ fontWeight: 600 }}>{title}</h5>
-        <p style={{ fontSize: "1em", minHeight: "100px" }} dangerouslySetInnerHTML={{ __html: description }}/>
+        <h5 style={{ fontWeight: 500, lineHeight: 1.6 }}>{title}</h5>
+        <p style={{ fontSize: "1em", minHeight: "200px", color: 'grey' }} dangerouslySetInnerHTML={{ __html: description }}/>
         <small style={{ display: "inline-block", height: "40px" }}>
           {tech}
         </small>

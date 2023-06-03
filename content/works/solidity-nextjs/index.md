@@ -1,5 +1,5 @@
 ---
-title: Practical Web3 Development with Solidity and NextJS
+title: Practical Web3 Development with Solidity and NextJS (WIP)
 date: "2070-11-15T22:40:32.169Z"
 type: work
 published: true
